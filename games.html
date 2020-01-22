@@ -1,6 +1,8 @@
 <!-- Game page -->
 <!DOCTYPE html>
 <html>
+
+<!-- Cider Code -->
 <head>
 <style>
 
@@ -45,13 +47,43 @@ width: 416px;
 .active {
   background-color:#3a5c85;
 }
+
+
+.collapsible {
+  background-color: #0F0F0F;
+  color: white;
+  cursor: pointer;
+  width: 168px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  margin: 0;
+  padding: 3px 0;
+}
+
+.gameslot, .collapsible:hover {
+  background-color: #555;
+
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  width: 100%;
+  transition: max-height 0.2s ease-out;
+  background-color: #555;
+}
+
 </style>
 </head>
-<body>
 
 <!-- Top bar -->
+<body>
+
+
 <ul>
-  <li><div class="menu"><a href="index.html"><img src="content/main/logo_topbar.png" style="width:14px;height:14px;"></a></div></li>
+  <li><div class="menu"><a href="index.html"><img src="content/1.main/logo_topbar.png" style="width:14px;height:14px;"></a></div></li>
   <li><div class="menu"><a class="active" href="games.html">Games</a></div></li>
   <li><div class="menu"><a href="software.html">Software</a></div></li>
   <li><div class="menu"><a href="community.html">Community</a></div></li>
@@ -60,27 +92,62 @@ width: 416px;
 </ul>
 
 </body>
+
 </html>
+
+<!-- Hit Code -->
 <html>
 
 <!-- Background -->
-<body background="content/main/background.png">
+<body background="content/1.main/background.png">
 
-<!-- Text -->
+<!-- Title -->
 <center><font size="12" color="white">Games</font></center>
 
 <!-- Games -->
-<center><font size="12" color=#0f0f0f>vspace=""</font></center>
-<center><div class="container"><a href="index.html"><img src="content/games/da/da_banner.png" style="width:400px;height:300px;" hspace="10"></a></div></center>
-<center><font size="12" color=#0f0f0f>vspace=""</font></center>
-<center><div class="container"><a href="index.html"><img src="content/games/fiab/fiab_banner.png" style="width:400px;height:300px;" hspace="10"></a></div></center>
-<center><font size="12" color=#0f0f0f>vspace=""</font></center>
-<center><div class="container"><a href="index.html"><img src="content/games/vctr/vctr_banner.png" style="width:400px;height:300px;" hspace="10"></a></div></center>
-<center><font size="12" color=#0f0f0f>vspace=""</font></center>
-<center><div class="container"><a href="index.html"><img src="content/main/featured_placeholder.png" style="width:400px;height:300px;" hspace="10"></a></div></center>
-<center><font size="12" color=#0f0f0f>vspace=""</font></center>
-<center><div class="container"><a href="index.html"><img src="content/main/featured_placeholder.png" style="width:400px;height:300px;" hspace="10"></a></div></center>
-<center><font size="12" color=#0f0f0f>vspace=""</font></center>
+<!-- Row A -->
+<center><font size="12" color=#0f0f0f>---</font></center>
+<center>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/da/da_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/fiab/fiab_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/vctr/vctr_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/blank_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+</center>
+<!-- Row B -->
+<center><font size="12" color=#0f0f0f>---</font></center>
+<center>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/blank_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/blank_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/blank_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/blank_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+</center>
+<!-- Row C -->
+<center><font size="12" color=#0f0f0f>---</font></center>
+<center>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/blank_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/blank_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/blank_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+  <button class="collapsible"><a href="index.html"><img src="content/2.games/blank_gameslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>---</font>
+</center>
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
 </body>
 
 <!DOCTYPE html>

@@ -11,44 +11,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/community.html">
+        <entry file="file://$PROJECT_DIR$/games.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+            <state relative-caret-position="393">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="n#html#0;n#!!top" />
-                <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
-              <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#center#2;n#body#0;n#html#1;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#0;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#2552#2558#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#2749#2755#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#2946#2952#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#3;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#3142#3148#0" expanded="true" />
+                <element signature="n#center#4;n#body#0;n#html#1;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#0;n#center#4;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#3433#3439#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#center#4;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#3630#3636#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#center#4;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#3827#3833#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#3;n#center#4;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#4003#4009#0" expanded="true" />
+                <element signature="n#center#6;n#body#0;n#html#1;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#0;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#4300#4306#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#4494#4500#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#4688#4694#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#button#3;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#4882#4888#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/game_da.html">
+        <entry file="file://$PROJECT_DIR$/software2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="154" selection-start-line="154" selection-end-line="154" />
+            <state relative-caret-position="353">
+              <caret line="143" column="9" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
               <folding>
+                <element signature="n#html#0;n#!!top" />
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#SCRIPT#0;n#body#0;n#html#1;n#!!top" />
-                <element signature="n#script#0;n#body#0;n#html#1;n#!!top" />
+                <element signature="n#center#2;n#body#0;n#html#1;n#!!top" />
+                <element signature="n#center#4;n#body#0;n#html#1;n#!!top" />
+                <element signature="n#center#6;n#body#0;n#html#1;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="80" column="169" lean-forward="true" selection-start-line="80" selection-start-column="169" selection-end-line="80" selection-end-column="181" />
+              <folding>
+                <element signature="n#html#0;n#!!top" />
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#center#5;n#body#0;n#html#1;n#!!top" expanded="true" />
+                <element signature="e#2057#2063#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#3;n#center#5;n#body#0;n#html#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,23 +125,24 @@
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/Page Content/Unused/Files/fox.html" />
         <option value="$PROJECT_DIR$/Unupdated/games.html" />
-        <option value="$PROJECT_DIR$/software.html" />
         <option value="$PROJECT_DIR$/testlogin1.html" />
         <option value="$PROJECT_DIR$/testlogin2.html" />
         <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/software2.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/content/2.games/da/da.html" />
         <option value="$PROJECT_DIR$/0.game_da.html" />
-        <option value="$PROJECT_DIR$/games.html" />
         <option value="$PROJECT_DIR$/dev_da_role.html" />
-        <option value="$PROJECT_DIR$/dev.html" />
         <option value="$PROJECT_DIR$/dev_gametask.html" />
-        <option value="$PROJECT_DIR$/dev_da.html" />
         <option value="$PROJECT_DIR$/dev_da_tutorialRole.html" />
-        <option value="$PROJECT_DIR$/community.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/game_da.html" />
+        <option value="$PROJECT_DIR$/dev_da.html" />
+        <option value="$PROJECT_DIR$/Games/game_da.html" />
+        <option value="$PROJECT_DIR$/software.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/community.html" />
+        <option value="$PROJECT_DIR$/dev.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/games.html" />
+        <option value="$PROJECT_DIR$/software2.html" />
       </list>
     </option>
   </component>
@@ -114,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,33 +164,50 @@
               <item name="neverway.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="neverway.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="neverway.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neverway.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neverway.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neverway.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="2_games" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neverway.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neverway.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="2_games" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files/3_software/main" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\content\2.games" />
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io" />
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\content\2.games\da" />
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\content\2.games\fiab" />
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\content\2.games\fiab_gameslot" />
+      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\Archived" />
+      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\about" />
+      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\main" />
+      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\games" />
+      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\dev\main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\trash\Desktop\Desktop\1.Neverway\Apps\neverway.github.io" />
+      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\3_software\main" />
       <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io" />
+      <recent name="C:\Users\trash\Desktop\Desktop\1.Neverway\Apps\neverway.github.io" />
       <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\Unupdated" />
       <recent name="C:\Users\trash\Desktop\Desktop\Neverway (SI)\Apps\neverway.github.io" />
-      <recent name="C:\neverway\neverway.github.io" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -350,7 +410,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4775281" visible="true" weight="0.16443452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4775281" visible="true" weight="0.24255952" />
       <window_info id="Structure" order="1" sideWeight="0.5224719" side_tool="true" weight="0.26190478" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,7 +421,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.12560387" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.12560387" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -442,13 +502,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index2.html" />
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/2.games/blank_gameslot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/1.main/background.png">
+    <entry file="file://$PROJECT_DIR$/files/2_games/main/blank_gameslot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Archived/css/animate-custom.css">
@@ -464,30 +518,24 @@
     <entry file="file://$PROJECT_DIR$/Archived/Unupdated/login.html" />
     <entry file="file://$PROJECT_DIR$/Archived/Unupdated/testlogin1.html" />
     <entry file="file://$PROJECT_DIR$/Archived/Unupdated/games.html" />
-    <entry file="file://$PROJECT_DIR$/content/2.games/da/da_banner.png">
+    <entry file="file://$PROJECT_DIR$/files/2_games/da/da_banner.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/2.games/da/da_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/1.main/featured_placeholder.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/1.main/logo_topbar.png">
+    <entry file="file://$PROJECT_DIR$/files/2_games/da/da_logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/content/1.main/unknown.png" />
     <entry file="file://$PROJECT_DIR$/Archived/Unupdated/games5.html" />
-    <entry file="file://$PROJECT_DIR$/content/2.games/vctr/vctr_banner.png">
+    <entry file="file://$PROJECT_DIR$/Archived/vctr/vctr_banner.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/2.games/vctr/vctr_gameslot.png">
+    <entry file="file://$PROJECT_DIR$/Archived/vctr/vctr_gameslot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/2.games/fiab/fiab_banner.png">
+    <entry file="file://$PROJECT_DIR$/Archived/fiab/fiab_banner.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/2.games/fiab/fiab_gameslot.png">
+    <entry file="file://$PROJECT_DIR$/Archived/fiab/fiab_gameslot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Archived/Unupdated/Unused/vo_logo.png">
@@ -530,68 +578,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/2.games/tag_rpg.png">
+    <entry file="file://$PROJECT_DIR$/files/2_games/main/tag_rpg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/2.games/tag_story.png">
+    <entry file="file://$PROJECT_DIR$/files/2_games/main/tag_story.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="76" column="498" selection-start-line="76" selection-start-column="498" selection-end-line="76" selection-end-column="498" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#center#5;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#center#5;n#body#0;n#html#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/software.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/2.games/tag_platformer.png">
+    <entry file="file://$PROJECT_DIR$/files/2_games/main/tag_platformer.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/2.games/tag_adventure.png">
+    <entry file="file://$PROJECT_DIR$/files/2_games/main/tag_adventure.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/games.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
-          <folding>
-            <element signature="n#html#0;n#!!top" />
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#0;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#3;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#0;n#center#4;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#center#6;n#body#0;n#html#1;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#0;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#3;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#body#0;n#html#1;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev_da_tutorialRole.html">
+    <entry file="file://$PROJECT_DIR$/files/5_dev/da/dev_da_tutorialRole.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="73" column="63" lean-forward="true" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
@@ -601,66 +600,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev.html">
+    <entry file="file://$PROJECT_DIR$/files/5_dev/da/dev_da.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+        <state relative-caret-position="320">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="n#html#0;n#!!top" />
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archived/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/1_main/background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/1_main/featured_placeholder.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/1_main/logo_topbar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/2_games/da/game_da.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding>
+            <element signature="n#html#0;n#!!top" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#SCRIPT#0;n#body#0;n#html#1;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="152" column="15" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
+          <folding>
+            <element signature="n#html#0;n#!!top" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#html#1;n#!!top" />
+            <element signature="n#body#0;n#html#1;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/community.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          <folding>
-            <element signature="n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev_da.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="71" column="18" lean-forward="true" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        <state relative-caret-position="140">
+          <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
           <folding>
             <element signature="n#html#0;n#!!top" />
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="n#html#0;n#!!top" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+        <state relative-caret-position="400">
+          <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="41" />
           <folding>
+            <element signature="n#html#0;n#!!top" />
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game_da.html">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        <state relative-caret-position="360">
+          <caret line="80" column="169" lean-forward="true" selection-start-line="80" selection-start-column="169" selection-end-line="80" selection-end-column="181" />
           <folding>
+            <element signature="n#html#0;n#!!top" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#SCRIPT#0;n#body#0;n#html#1;n#!!top" />
-            <element signature="n#script#0;n#body#0;n#html#1;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#center#5;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#2057#2063#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#3;n#center#5;n#body#0;n#html#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="n#html#0;n#!!top" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#center#2;n#body#0;n#html#1;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#0;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#2552#2558#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#2749#2755#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#2946#2952#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#3;n#center#2;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#3142#3148#0" expanded="true" />
+            <element signature="n#center#4;n#body#0;n#html#1;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#0;n#center#4;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#3433#3439#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#center#4;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#3630#3636#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#center#4;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#3827#3833#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#3;n#center#4;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#4003#4009#0" expanded="true" />
+            <element signature="n#center#6;n#body#0;n#html#1;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#0;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#4300#4306#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#4494#4500#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#4688#4694#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#3;n#center#6;n#body#0;n#html#1;n#!!top" expanded="true" />
+            <element signature="e#4882#4888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="143" column="9" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
+          <folding>
+            <element signature="n#html#0;n#!!top" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#center#2;n#body#0;n#html#1;n#!!top" />
+            <element signature="n#center#4;n#body#0;n#html#1;n#!!top" />
+            <element signature="n#center#6;n#body#0;n#html#1;n#!!top" />
           </folding>
         </state>
       </provider>

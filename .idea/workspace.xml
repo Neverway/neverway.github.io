@@ -20,8 +20,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/da/da_banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/da/da_banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/da/da_gameSlot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/ods/ods_gameSlot.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/ods/ods_gameSlot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/6_about/reddit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/Unused/Files/Logo dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/Unused/Files/fox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/Unused/Files/foxlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/Unused/Files/logofullmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/Unused/vo_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/divine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/software.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/Unupdated/vectoroids.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/css/animate-custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/css/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/css/style3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/fiab/fiab_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/fiab/fiab_gameslot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/vctr/vctr_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archived/vctr/vctr_gameslot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/community.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/da/da_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/da/da_banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/da/da_gameslot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/da/game_da.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/da/game_da.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/main/blank_gameslot.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/main/blank_gameSlot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/6_about/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +80,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jcmvcEWVfM8SepuJN8QcZt7ODZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -277,8 +315,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add index page" />
     <MESSAGE value="Add background" />
     <MESSAGE value="Updated background" />

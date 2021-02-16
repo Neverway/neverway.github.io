@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/files/6_about/avatarBase.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-    </list>
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added about.html profile card placeholders" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552913218044</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added about.html profile card placeholders">
+      <created>1613502337843</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1613502337843</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -300,6 +303,7 @@
     <MESSAGE value="Fix images not loading" />
     <MESSAGE value="Add subpage for da and vo" />
     <MESSAGE value="Update Vectroids logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Vectroids logo" />
+    <MESSAGE value="Added about.html profile card placeholders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added about.html profile card placeholders" />
   </component>
 </project>

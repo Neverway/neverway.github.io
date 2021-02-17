@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Updated background image">
-      <change afterPath="$PROJECT_DIR$/files/1_main/background.png" afterDir="false" />
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Fixed about.html container overflow">
+      <change afterPath="$PROJECT_DIR$/deadend.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/1_main/background2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/community.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +67,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\3_software\vrcmods" />
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\Archived" />
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\about" />
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\main" />
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\games" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\3_software\main" />
       <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io" />
       <recent name="C:\Users\trash\Desktop\Desktop\1.Neverway\Apps\neverway.github.io" />
       <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\Unupdated" />
-      <recent name="C:\Users\trash\Desktop\Desktop\Neverway (SI)\Apps\neverway.github.io" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/files" />
+      <recent name="$PROJECT_DIR$/files/1_main" />
+      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\3_software\vrcmods" />
+      <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\Archived" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -281,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613575144959</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Fixed about.html container overflow">
+      <created>1613577383866</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1613577383866</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -331,6 +340,7 @@
     <MESSAGE value="Update Vectroids logo" />
     <MESSAGE value="Added about.html profile card placeholders" />
     <MESSAGE value="Updated background image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated background image" />
+    <MESSAGE value="Fixed about.html container overflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed about.html container overflow" />
   </component>
 </project>

@@ -19,17 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added about.html profile card placeholders">
-      <change afterPath="$PROJECT_DIR$/files/1_main/background0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/6_about/avatarArthur.png" afterDir="false" />
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Updated background image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/1_main/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/1_main/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613502604792</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Updated background image">
+      <created>1613574428704</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1613574428704</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -322,6 +321,7 @@
     <MESSAGE value="Add subpage for da and vo" />
     <MESSAGE value="Update Vectroids logo" />
     <MESSAGE value="Added about.html profile card placeholders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added about.html profile card placeholders" />
+    <MESSAGE value="Updated background image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated background image" />
   </component>
 </project>

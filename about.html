@@ -70,31 +70,35 @@ html {
 }
 
 .row {
+  display: flex;
+  flex-direction:row;
   margin-bottom: 16px;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding: 0 50px;
+  width: 250px;
+  padding: 0 16px;
 }
 
 .column {
-  float: left;
+  flex: 1 1 0px;
+  border: 1px solid black;
   width: 25%;
-  height: 335px;
+  height: 365px;
   margin-bottom: 16px;
   padding: 0 8px;
 }
 
 .row2 {
+  display: flex;
+  flex-direction:row;
   margin-bottom: 16px;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding: 0 50px;
+  width: 250px;
+  padding: 0 16px;
 }
 
 .column2 {
-  float: left;
+  flex: 1 1 0px;
+  border: 1px solid black;
   width: 25%;
-  height: 335px;
+  height: 365px;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -117,6 +121,8 @@ html {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
   transition: 0.3s;
+  background-color: #555;
+  padding: 16px 16px;
 }
 
 .box {
@@ -125,6 +131,18 @@ html {
 
 .title {
   color: grey;
+}
+
+
+.parent {
+  margin-left: 24%;
+  display: flex;
+  flex-direction:row;
+}
+
+.column2 {
+  flex: 1 1 0px;
+  border: 1px solid black;
 }
 
 
@@ -165,33 +183,44 @@ body {
 <center><font size="4" color="white">Founded 2011, by Arthur W. Sheldon</font></center>
 <center><font size="12" color=#0f0f0f><br></font></center>
 
+<div class="parent">
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarArthur.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Arthur W. Sheldon</h2><p class="title">Lead Programmer & Founder</p></div></div></div></div></a>
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Kajani Bynum</h2><p class="title">Concept Artist</p></div></div></div></div></a>
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Ninti Bynum</h2><p class="title">Play Tester</p></div></div></div></div></a>
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Tucker Barron</h2><p class="title">Level Designer</p></div></div></div></div></a>
+</div>
 
+<div class="parent">
 <a href="index.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Ephrum Russell</h2><p class="title">Level Designer</p></div></div></div></div></a>
 <a href="index.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Dominick Crowell</h2><p class="title">Quality Control</p></div></div></div></div></a>
 <a href="index.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Gabriel Jarr</h2><p class="title">Play Tester</p></div></div></div></div></a>
 <a href="index.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Thomas Layfield</h2><p class="title">Programmer</p></div></div></div></div></a>
+</div>
 
+<div class="parent">
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Seth Parsick</h2><p class="title">Play Tester</p></div></div></div></div></a>
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Kevin Miller</h2><p class="title">Programmer, Game Artist</p></div></div></div></div></a>
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Nicholas Wood</h2><p class="title">Concept Artist</p></div></div></div></div></a>
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Desmond Jones</h2><p class="title">Play Tester</p></div></div></div></div></a>
+</div>
 
+<div class="parent">
 <a href="index.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Nate The Great</h2><p class="title">Lead Game Artist</p></div></div></div></div></a>
 <a href="index.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Tyson Soto</h2><p class="title">Story Board Artist</p></div></div></div></div></a>
 <a href="index.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Memphis Perez</h2><p class="title">Programmer</p></div></div></div></div></a>
 <a href="index.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Alex Perez</h2><p class="title">Composer</p></div></div></div></div></a>
+</div>
 
+<div class="parent">
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Kronos</h2><p class="title">Bug Tester</p></div></div></div></div></a>
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Daniel Sheldon</h2><p class="title">Concept Artist</p></div></div></div></div></a>
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Chaos55t</h2><p class="title">Collaborator</p></div></div></div></div></a>
 <a href="index.html"><div class="row"><div class="column"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Brian Sheldon</h2><p class="title">Programming Consultant</p></div></div></div></div></a>
+</div>
 
+<div class="parent">
 <a href="index.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/neverway.github.io/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Jill Sheldon</h2><p class="title">Play Tester</p></div></div></div></div></a>
-
+</div>
 
 
 

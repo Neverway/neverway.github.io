@@ -48,7 +48,6 @@ width: 416px;
   background-color:#3a5c85;
 }
 
-
 .collapsible {
   background-color: #0F0F0F;
   color: white;
@@ -67,7 +66,6 @@ width: 416px;
 
 }
 
-
 .content {
   max-height: 0;
   overflow: hidden;
@@ -76,6 +74,25 @@ width: 416px;
   background-color: #555;
 }
 
+.sliding-background {
+  position: absolute;
+  background: url("/neverway.github.io/files/1_main/background.png") repeat;
+  background-size: 25% 25%;
+  height: 500%;
+  width: 3840px;
+  animation: slide 60s linear infinite;
+  object-fit: fill;
+  z-index:-999;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
 
 body {
  margin-top: 0px;
@@ -119,7 +136,8 @@ for (i = 0; i < coll.length; i++) {
 <html>
 
 <!-- Background -->
-<body background="/neverway.github.io/files/1_main/background.png">
+<body>
+<div class="sliding-background"></div>
 
 <!-- Title -->
 <center><font size="12" color="white">Games</font></center>

@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Testing fix for missing links, on index.html">
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deadend.html" beforeDir="false" afterPath="$PROJECT_DIR$/deadend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Fixed links searching for wrong directory on webserver">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/da/game_da.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/da/game_da.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/ods/game_ods.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/ods/game_ods.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620549909058</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Fixed links searching for wrong directory on webserver">
+      <created>1620550597495</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1620550597495</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -364,6 +368,7 @@
     <MESSAGE value="Fixed about.html container overflow" />
     <MESSAGE value="Added scrolling to background" />
     <MESSAGE value="Testing fix for missing links, on index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing fix for missing links, on index.html" />
+    <MESSAGE value="Fixed links searching for wrong directory on webserver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed links searching for wrong directory on webserver" />
   </component>
 </project>

@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Testing fix for ./ redirect issue (added / to start of root directories)">
-      <change afterPath="$PROJECT_DIR$/files/3_software/fq/fq_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/3_software/fq/fq_softwareSlot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/3_software/fq/software_fq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/2_games/da/game_da.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/da/game_da.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/2_games/ods/game_ods.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/ods/game_ods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/3_software/fq/fq_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/3_software/fq/fq_banner.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

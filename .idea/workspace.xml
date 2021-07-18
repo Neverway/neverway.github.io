@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added UltraED N64 link to dev.html">
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added spacing to dev.html">
+      <change afterPath="$PROJECT_DIR$/files/5_dev/ultraed/dev_ultraed.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,16 +67,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files/5_dev/ultraed" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lizband_UCC\Desktop\Desktop\Neverway\Software\neverway.github.io\files\5_dev\ultraed" />
       <recent name="$PROJECT_DIR$/files/3_software" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io\files\3_software\main" />
       <recent name="C:\Users\trash\Desktop\Desktop\Neverway\Apps\neverway.github.io" />
-      <recent name="C:\Users\trash\Desktop\Desktop\1.Neverway\Apps\neverway.github.io" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -363,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626638829651</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Added spacing to dev.html">
+      <created>1626638952155</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1626638952155</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -422,6 +430,7 @@
     <MESSAGE value="Testing fix for ./ redirect issue (added / to start of root directories)" />
     <MESSAGE value="Removed sliding background since it breaks the webpages" />
     <MESSAGE value="Added UltraED N64 link to dev.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added UltraED N64 link to dev.html" />
+    <MESSAGE value="Added spacing to dev.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added spacing to dev.html" />
   </component>
 </project>

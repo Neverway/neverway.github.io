@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Fixed text color on dev_ultraed.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Fixed formatting on dev_ultraed.html">
       <change beforePath="$PROJECT_DIR$/files/5_dev/ultraed/dev_ultraed.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/5_dev/ultraed/dev_ultraed.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -413,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626656695972</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Fixed formatting on dev_ultraed.html">
+      <created>1626656973591</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1626656973591</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView">
@@ -449,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added fox in a box" />
     <MESSAGE value="Fixed link" />
     <MESSAGE value="Add logo" />
     <MESSAGE value="Fix stuff (too tired to put info things)" />
@@ -474,6 +479,7 @@
     <MESSAGE value="Added Controller inputs to dev_ultraed.html" />
     <MESSAGE value="Fixed code block color on dev_ultraed.html" />
     <MESSAGE value="Fixed text color on dev_ultraed.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed text color on dev_ultraed.html" />
+    <MESSAGE value="Fixed formatting on dev_ultraed.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed formatting on dev_ultraed.html" />
   </component>
 </project>

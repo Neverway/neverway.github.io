@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Removed dead link on dev_ultraed.html">
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Updated dev_ultraed.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/5_dev/ultraed/dev_ultraed.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/5_dev/ultraed/dev_ultraed.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -433,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626657521010</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Updated dev_ultraed.html">
+      <created>1626657725814</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1626657725814</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -488,12 +496,12 @@
     <MESSAGE value="Added UltraED N64 link to dev.html" />
     <MESSAGE value="Added spacing to dev.html" />
     <MESSAGE value="Added dev_ultraed.html" />
-    <MESSAGE value="Updated dev_ultraed.html" />
     <MESSAGE value="Added Controller inputs to dev_ultraed.html" />
     <MESSAGE value="Fixed text color on dev_ultraed.html" />
     <MESSAGE value="Fixed formatting on dev_ultraed.html" />
     <MESSAGE value="Fixed code block color on dev_ultraed.html" />
     <MESSAGE value="Removed dead link on dev_ultraed.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed dead link on dev_ultraed.html" />
+    <MESSAGE value="Updated dev_ultraed.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated dev_ultraed.html" />
   </component>
 </project>

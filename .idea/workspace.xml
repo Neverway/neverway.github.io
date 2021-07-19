@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Updated dev_ultraed.html">
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added Controller inputs to dev_ultraed.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/5_dev/ultraed/dev_ultraed.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/5_dev/ultraed/dev_ultraed.html" afterDir="false" />
     </list>
@@ -392,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626643303345</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Added Controller inputs to dev_ultraed.html">
+      <created>1626656387926</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1626656387926</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -428,7 +435,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add background" />
     <MESSAGE value="Updated background" />
     <MESSAGE value="General tweaking" />
     <MESSAGE value="Added fox in a box" />
@@ -453,6 +459,7 @@
     <MESSAGE value="Added spacing to dev.html" />
     <MESSAGE value="Added dev_ultraed.html" />
     <MESSAGE value="Updated dev_ultraed.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated dev_ultraed.html" />
+    <MESSAGE value="Added Controller inputs to dev_ultraed.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Controller inputs to dev_ultraed.html" />
   </component>
 </project>

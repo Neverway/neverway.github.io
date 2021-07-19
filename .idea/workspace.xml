@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Updated dev_ultraed.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/5_dev/ultraed/dev_ultraed.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/5_dev/ultraed/dev_ultraed.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,13 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546995234979</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Add index page">
-      <created>1546995288035</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1546995288035</updated>
     </task>
     <task id="LOCAL-00002" summary="Add background">
       <created>1546995478100</created>
@@ -441,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626657725814</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Updated dev_ultraed.html">
+      <created>1626658163460</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1626658163461</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">

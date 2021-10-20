@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Updated dev_ultraed.html">
-      <change afterPath="$PROJECT_DIR$/files/6_about/avatarAlex.png" afterDir="false" />
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
+      <change afterPath="$PROJECT_DIR$/files/6_about/avatarChaos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/6_about/avatarKajani.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/6_about/avatarKronoss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/6_about/avatarSpeckle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,13 +100,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546995234979</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add background">
-      <created>1546995875727</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1546995875727</updated>
     </task>
     <task id="LOCAL-00004" summary="Updated background">
       <created>1546996005991</created>
@@ -441,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626658250732</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Added profile picture to about.html">
+      <created>1634696319359</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1634696319359</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView">
@@ -477,7 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add logo" />
     <MESSAGE value="Fix stuff (too tired to put info things)" />
     <MESSAGE value="Website overhaul" />
     <MESSAGE value="Fix images not loading" />
@@ -502,6 +504,7 @@
     <MESSAGE value="Fixed code block color on dev_ultraed.html" />
     <MESSAGE value="Removed dead link on dev_ultraed.html" />
     <MESSAGE value="Updated dev_ultraed.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated dev_ultraed.html" />
+    <MESSAGE value="Added profile picture to about.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added profile picture to about.html" />
   </component>
 </project>

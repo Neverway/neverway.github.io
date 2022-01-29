@@ -60,16 +60,29 @@ p.news {
 }
 
 body {
- margin-top: 0px;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 0px
+ margin: 0;
+ padding: 0;
+ height: 100vh;
 }
+#particles-js{ 
+  z-index: -1;
+  position: fixed; 
+  width: 100%; 
+  height: 100%; 
+  background-color: #232741; 
+  background-repeat: no-repeat; 
+  background-size: 40%; 
+  background-position: 50% 50%; }
 </style>
+
 </head>
 
 <!-- Top bar -->
 <body>
+  <div id="particles-js"></div>
+  <script type="text/javascript" src="particles.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
 <ul>
   <li><div class="menu"><a class="active" href="/index.html"><img src="/files/1_main/logo_topbar.png" style="width:14px;height:14px;"></a></div></li>
   <li><div class="menu"><a href="/games.html">Games</a></div></li>
@@ -77,15 +90,18 @@ body {
   <li><div class="menu"><a href="/community.html">Community</a></div></li>
   <li><div class="menu"><a href="/dev.html">Developers Corner</a></div></li>
   <li><div class="menu"><a href="/about.html">About</a></div></li>
+  
 </ul>
 </body>
 
 </html>
 
-<html>
+</html>
 
+<html>
+  
 <!-- Background -->
-<body background="/files/1_main/background.png">
+<!--<body background="/files/1_main/background.png">-->
 
 <!-- Header text -->
 <center><font size="12" color=#3a5c85>Welcome to</font></center>

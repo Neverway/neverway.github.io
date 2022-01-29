@@ -73,16 +73,29 @@ body {
   background-color: #000000; 
   background-repeat: no-repeat; 
   background-size: 40%; 
-  background-position: 50% 50%; }
+  background-position: 50% 50%; 
+    }
+#Title{
+    padding-top:  50px;
+}
+#FeaturedVideo{
+    padding-top:  50px;
+}
+iframe{
+ padding-top: 15px;
+    }
 </style>
 
+    
 </head>
 
 <!-- Top bar -->
 <body>
+    
+    <!-- Particle Background -->
   <div id="particles-js"></div>
-  <script type="text/javascript" src="particles.js"></script>
-  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="/plugins/particles/particles.js"></script>
+  <script type="text/javascript" src="/plugins/particles/app.js"></script>
 
 <ul>
   <li><div class="menu"><a class="active" href="/index.html"><img src="/files/1_main/logo_topbarWO.png" style="width:14px;height:14px;"></a></div></li>
@@ -97,21 +110,23 @@ body {
 
 </html>
 
-</html>
-
 <html>
   
 <!-- Background -->
 <!--<body background="/files/1_main/background.png">-->
 
 <!-- Header text -->
+<div id ="Title">
 <center><font size="12" color=#3a5c85>Welcome to</font></center>
 <center><img src="/files/1_main/NeverwayStudioBannerWO.png" style="width:30%;height:30%;"></center>
-<center><font size="6" color="white">Featured</font></center>
+</div>
+
 
 <!-- Featured video -->
-<center><iframe width="800" height="600" src="https://www.youtube.com/embed/3a42FkaLnQM?autoplay=0"></iframe></center>
-
+<div id = "FeaturedVideo">
+<center><font size="6" color="white">Featured Video</font></center>
+<center><iframe frameBorder="0" width="800" height="600" src="https://www.youtube.com/embed/3a42FkaLnQM?autoplay=0"></iframe></center>
+</div>
 <!-- Featured news -->
 <center><font size="12" color=#0f0f0f><br></font></center>
 <center><font size="6" color="white">News</font></center>

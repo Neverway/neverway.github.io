@@ -1,0 +1,6 @@
+profiles = [
+    {"DisplayName": "BixTheGameDev","Job": "Better Programmer"},
+    {"DisplayName": "Arthur","Job": "programmer"},
+    {"DisplayName": "Klix","Job": "klix gammer"},
+]
+

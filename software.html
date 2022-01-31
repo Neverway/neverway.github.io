@@ -1,172 +1,66 @@
-<!-- Software page -->
+<!-- Home page -->
 <!DOCTYPE html>
 
+<!-- Header -->
 <html>
-
-<!-- Styles -->
+<!-- Style sheet -->
 <head>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #000000;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.container {
-transition: 0.3s;
-object-fit: cover;
-height: 100px;
-width: 416px;
-overflow: hidden;
-}
-
-.container:hover{
-height: 300px;
-width: 416px;
-}
-
-.menu:hover:not(.active) {
-  transition: 0.3s;
-  background-color: #111;
-}
-
-.active {
-  background-color:#3a5c85;
-}
-
-.collapsible {
-  background-color: #0F0F0F;
-  color: white;
-  cursor: pointer;
-  width: 168px;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
-  margin: 0;
-  padding: 3px 0;
-}
-
-.gameslot, .collapsible:hover {
-  background-color: #555;
-
-}
-
-.content {
-  max-height: 0;
-  overflow: hidden;
-  width: 100%;
-  transition: max-height 0.2s ease-out;
-  background-color: #555;
-}
-
-.sliding-background {
-  position: absolute;
-  background: url("/files/1_main/background.png") repeat;
-  background-size: 25% 25%;
-  height: 500%;
-  width: 3840px;
-  animation: slide 60s linear infinite;
-  object-fit: fill;
-  z-index:-999;
-}
-
-@keyframes slide{
-  0%{
-    transform: translate3d(0, 0, 0);
-  }
-  100%{
-    transform: translate3d(-1692px, 0, 0);
-  }
-}
-
-body {
- margin-top: 0px;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 0px
-}
-
-</style>
-  <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-}
-</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
+
 
 <!-- Top bar -->
 <body>
-<ul>
-  <li><div class="menu"><a href="/index.html"><img src="/files/1_main/logo_topbar.png" style="width:14px;height:14px;"></a></div></li>
-  <li><div class="menu"><a href="/games.html">Games</a></div></li>
-  <li><div class="menu"><a class="active" href="/software.html">Software</a></div></li>
-  <li><div class="menu"><a href="/community.html">Community</a></div></li>
-  <li><div class="menu"><a href="/dev.html">Developers Corner</a></div></li>
-  <li><div class="menu"><a href="/about.html">About</a></div></li>
-</ul>
-</body>
+  <!-- Particle background -->
+  <div id="particles-js"></div>
+  <script type="text/javascript" src="/files/plugins/particles/particles.js"></script>
+  <script type="text/javascript" src="/files/plugins/particles/app.js"></script>
 
+  <!-- Navigation bar -->
+  <ul>
+    <li><div class="menu"><a href="/index.html"><img src="/files/1_main/logo_topbar_outlined.png" style="width:14px;height:16px;"></a></div></li>
+    <li><div class="menu"><a href="/games.html">Games</a></div></li>
+    <li><div class="menu"><a href="/animations&comics.html">Animations & Comics</a></div></li>
+    <li><div class="menu"><a class="active" href="/software.html">Software</a></div></li>
+    <li><div class="menu"><a href="/deadend.html">Developers Corner</a></div></li>
+    <li><div class="menu"><a href="/deadend.html">About</a></div></li>
+  </ul>
+</body>
 </html>
 
+
+
+<!-- Page -->
 <html>
-
-<!-- Background -->
-<body background="/files/1_main/background.png">
-
-<!-- Title -->
+<!-- Header text -->
+<div id ="Title">
 <center><font size="12" color="white">Software</font></center>
+</div>
 
 <!-- Row A -->
 <center><font size="12" color=#0f0f0f><br></font></center>
 <center>
-  <!-- files/3_software/vrcmods/software_vrcmods.html --><button class="collapsible"><a href="/files/3_software/fq/software_fq.html"><img src="/files/3_software/fq/fq_softwareSlot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
-  <button class="collapsible"><a href="software.html"><img src="/files/3_software/main/blank_softwareslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
-  <button class="collapsible"><a href="software.html"><img src="/files/3_software/main/blank_softwareslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
+  <button class="collapsible"><a href="software.html"><img src="files/project/blank_slot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
+  <button class="collapsible"><a href="software.html"><img src="files/project/blank_slot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
+  <button class="collapsible"><a href="software.html"><img src="files/project/blank_slot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
 </center>
 
 <!-- Row B -->
 <center><font size="12" color=#0f0f0f><br></font></center>
 <center>
-  <button class="collapsible"><a href="software.html"><img src="/files/3_software/main/blank_softwareslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
-  <button class="collapsible"><a href="software.html"><img src="/files/3_software/main/blank_softwareslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
-  <button class="collapsible"><a href="software.html"><img src="/files/3_software/main/blank_softwareslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
+  <button class="collapsible"><a href="software.html"><img src="files/project/blank_slot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
+  <button class="collapsible"><a href="software.html"><img src="files/project/blank_slot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
+  <button class="collapsible"><a href="software.html"><img src="files/project/blank_slot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
 </center>
 
 <!-- Row C -->
 <center><font size="12" color=#0f0f0f><br></font></center>
 <center>
-  <button class="collapsible"><a href="software.html"><img src="/files/3_software/main/blank_softwareslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
-  <button class="collapsible"><a href="software.html"><img src="/files/3_software/main/blank_softwareslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
-  <button class="collapsible"><a href="software.html"><img src="/files/3_software/main/blank_softwareslot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
+  <button class="collapsible"><a href="software.html"><img src="files/project/blank_slot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
+  <button class="collapsible"><a href="software.html"><img src="files/project/blank_slot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
+  <button class="collapsible"><a href="software.html"><img src="files/project/blank_slot.png" style="width:160px;height:208px;"></a></button><font size="12" color=#0f0f0f>   &nbsp;   </font>
 </center>
 <center><font size="12" color=#0f0f0f><br></font></center>
-
-</body>
 
 <!DOCTYPE html>

@@ -1,0 +1,242 @@
+<!-- About page -->
+<!DOCTYPE html>
+
+<html>
+
+<!-- Styles -->
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container {
+transition: 0.3s;
+object-fit: cover;
+height: 100px;
+width: 416px;
+overflow: hidden;
+}
+
+.container:hover{
+height: 300px;
+width: 416px;
+}
+
+.menu:hover:not(.active) {
+  transition: 0.3s;
+  background-color: #111;
+}
+
+.active {
+  background-color:#3a5c85;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.avatarBox {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.row {
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 16px;
+  width: 250px;
+  padding: 0 16px;
+}
+
+.column {
+  flex: 1 1 0px;
+  border: 1px solid black;
+  width: 25%;
+  height: 365px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 16px;
+  width: 250px;
+  padding: 0 16px;
+}
+
+.column2 {
+  flex: 1 1 0px;
+  border: 1px solid black;
+  width: 25%;
+  height: 365px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  object-fit: cover;
+  overflow: hidden;
+  padding: 8px 8px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  background-color: #555;
+  padding: 16px 16px;
+}
+
+.box {
+  padding: 16px 16px;
+}
+
+.title {
+  color: grey;
+}
+
+.parent {
+  margin-left: 24%;
+  display: flex;
+  flex-direction:row;
+}
+
+.column2 {
+  flex: 1 1 0px;
+  border: 1px solid black;
+}
+
+.sliding-background {
+  position: absolute;
+  background: url("/files/1_main/background.png") repeat;
+  background-size: 25% 25%;
+  height: 500%;
+  width: 3840px;
+  animation: slide 60s linear infinite;
+  object-fit: fill;
+  z-index:-999;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+</style>
+</head>
+
+<!-- Top bar -->
+<body>
+    
+<ul>
+  <li><div class="menu"><a href="/index.html"><img src="/files/1_main/logo_topbar.png" style="width:14px;height:14px;"></a></div></li>
+  <li><div class="menu"><a href="/games.html">Games</a></div></li>
+  <li><div class="menu"><a href="/software.html">Software</a></div></li>
+  <li><div class="menu"><a href="/community.html">Community</a></div></li>
+  <li><div class="menu"><a href="/dev.html">Developers Corner</a></div></li>
+  <li><div class="menu"><a class="active" href="/about.html">About</a></div></li>
+</ul>
+</body>
+
+</html>
+
+<html>
+
+<!-- Background -->
+<body background="/files/1_main/background.png">
+
+<!-- Text -->
+<center><font size="12" color="white">About</font></center>
+
+<!-- Community -->
+<center><font size="12" color=#0f0f0f><br></font></center>
+<center><font size="4" color="white">Neverway is a group/collective of like-minded individuals working to develop software and hardware to improve peoples everyday lives.</font></center>
+<center><font size="4" color="white">Founded 2011, by Arthur W. Sheldon</font></center>
+<center><font size="12" color=#0f0f0f><br></font></center>
+
+<div class="parent">
+<a href="/deadend.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarArthur.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Arthur W. Sheldon</h2><p class="title">Lead Programmer & Founder</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarKajani.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Kajani Bynum</h2><p class="title">Concept Artist</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Ninti Bynum</h2><p class="title">Play Tester</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Tucker Barron</h2><p class="title">Level Designer</p></div></div></div></div></a>
+</div>
+
+<div class="parent">
+<a href="/deadend.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Ephrum Russell</h2><p class="title">Level Designer</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/files/6_about/avatarDom.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Dominick Crowell</h2><p class="title">Quality Control</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Gabriel Jarr</h2><p class="title">Play Tester</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Thomas Layfield</h2><p class="title">Programmer</p></div></div></div></div></a>
+</div>
+
+<div class="parent">
+<a href="/index.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarSpeckle.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Nicholas Wood</h2><p class="title">Concept Artist</p></div></div></div></div></a>
+<a href="/index.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Lina Jones</h2><p class="title">Play Tester</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>BixTheGameDev</h2><p class="title">Better Programmer</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/files/6_about/avatarNate.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Nate The Great</h2><p class="title">Lead Game Artist</p></div></div></div></div></a>
+</div>
+
+<div class="parent">
+<a href="/deadend.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Tyson Soto</h2><p class="title">Story Board Artist</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/files/6_about/avatarAlex.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Alex Perez</h2><p class="title">Composer</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarKronoss.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Kronos</h2><p class="title">Bug Tester</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarDan.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Daniel Sheldon</h2><p class="title">Concept Artist</p></div></div></div></div></a>
+
+</div>
+
+<div class="parent">
+<a href="/deadend.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarChaos.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Chaos55t</h2><p class="title">Collaborator</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row"><div class="column"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Brian Sheldon</h2><p class="title">Programming Consultant</p></div></div></div></div></a>
+<a href="/deadend.html"><div class="row2"><div class="column2"><div class="card"><center><img src="/files/6_about/avatarBase.png" style="width:128px;height:128px;" class="avatar"></center><div class="box"><h2>Jill Sheldon</h2><p class="title">Play Tester</p></div></div></div></div></a>
+</div>
+</body>
+
+<!DOCTYPE html>

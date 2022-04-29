@@ -211,6 +211,92 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+/* About Page Profiles */
+.parent {
+  margin-left: 24%;
+  display: flex;
+  flex-direction:row;
+}
+
+li about {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 16px;
+  width: 250px;
+  padding: 0 16px;
+}
+
+.column {
+  flex: 1 1 0px;
+  border: 1px solid black;
+  width: 25%;
+  height: 365px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 16px;
+  width: 250px;
+  padding: 0 16px;
+}
+
+.column2 {
+  flex: 1 1 0px;
+  border: 1px solid black;
+  width: 25%;
+  height: 365px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  object-fit: cover;
+  overflow: hidden;
+  padding: 8px 8px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  background-color: #555;
+  padding: 16px 16px;
+}
+
+.box {
+  color: white;
+  padding: 16px 16px;
+}
+
+.title {
+  color: grey;
+}
+
+.avatarBox {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 /* Download Options */
 .download_pc {
   background: rgba(0, 0, 255, 0.05);

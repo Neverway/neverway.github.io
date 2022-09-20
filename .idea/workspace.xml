@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
-      <change afterPath="$PROJECT_DIR$/files/6_about/arthur/portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/6_about/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/lizband.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/lizband.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deadend.html" beforeDir="false" afterPath="$PROJECT_DIR$/deadend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarArthur.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/6_about/arthur/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/6_about/avatarKevin-old.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/6_about/avatarKevin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/6_about/avatarMathew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/6_about/avatarSpeckle.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,25 +70,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/files/6_about" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/files" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/files/4_software" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files/4_software" />
+      <recent name="$PROJECT_DIR$/files/2_games" />
       <recent name="$PROJECT_DIR$/files/6_about" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/files/2_games/id003-ods" />
-      <recent name="$PROJECT_DIR$/files/2_games" />
-      <recent name="$PROJECT_DIR$/files/2_games/id002-da" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files/4_software" />
+      <recent name="$PROJECT_DIR$/files/3_animations&amp;comics" />
+      <recent name="$PROJECT_DIR$/old" />
       <recent name="$PROJECT_DIR$/files/6_about/arthur" />
       <recent name="$PROJECT_DIR$/files/6_about" />
-      <recent name="$PROJECT_DIR$/files/6_about/Arthur" />
-      <recent name="$PROJECT_DIR$/old" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />

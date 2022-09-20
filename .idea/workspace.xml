@@ -20,11 +20,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
+      <change afterPath="$PROJECT_DIR$/files/1_main/featured_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/1_main/featured_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/.template/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/.template/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/.template/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/.template/teaser1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/.template/teaser2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/.template/teaser3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id002-da/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id002-da/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id002-da/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id002-da/teaser0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id002-da/teaser1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id002-da/teaser2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id009-ods/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id009-ods/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id009-ods/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id009-ods/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id009-ods/teaser1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id009-ods/teaser2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2_games/id009-ods/teaser3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/project/blank_slot.old.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarKevin-old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarKevin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarMathew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarSpeckle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animations&amp;comics.html" beforeDir="false" afterPath="$PROJECT_DIR$/animations&amp;comics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deadend.html" beforeDir="false" afterPath="$PROJECT_DIR$/deadend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/1_main/featured_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/1_main/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/1_main/featured_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/.template/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/.template/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/.template/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/.template/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/.template/slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/id002-da/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/id002-da/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/id002-da/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/id002-da/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/id002-da/slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/id003-ods/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/id009-ods/banner.old.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/id003-ods/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/id009-ods/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/2_games/id003-ods/slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/2_games/id009-ods/slot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/project/blank_slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/project/blank_slot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/aboutTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/community.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/da/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/da/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/da/slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/deadend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/dev.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/1_main/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/1_main/background0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/2_games/da/da_banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/2_games/da/da_banner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/2_games/da/da_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/2_games/da/game_dao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/2_games/ods/game_ods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/2_games/ods/ods_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/2_games/ods/ods_gallery1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/2_games/ods/ods_gallery2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/2_games/ods/ods_gallery3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/3_software/bsmods/bsmods_softwareslot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/3_software/fq/fq_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/3_software/fq/fq_softwareSlot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/3_software/fq/software_fq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/3_software/main/blank_softwareslot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/3_software/vrcmods/SteamEmu/stats.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/3_software/vrcmods/vrcmods_softwareslot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/5_dev/da/dev_da.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/5_dev/da/dev_da_tutorialRole.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/files/5_dev/ultraed/dev_ultraed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/games.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/id003-ods/game_ods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/id003-ods/ods_gameSlot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/scripts/AddProfiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/software.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

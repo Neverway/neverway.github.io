@@ -210,6 +210,20 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+/* Project page */
+  .logo {
+    top: 25px;
+    left: 12%;
+    right: 12%;
+    position: absolute;
+  }
+
+  .banner {
+    height: 20px;
+    opacity: 0.5;
+    position: relative;
+    z-index: -1;
+  }
 
 /* About Page Profiles */
 .parent {

@@ -20,41 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
-      <change afterPath="$PROJECT_DIR$/files/about/arthur.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/chaos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/dan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/discord.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/dom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/kajani.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/kevin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/kronos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/lina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/patreon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/weston.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/WrastorIntimidate.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/about/WrastorIntimidate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/arthur/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/about/arthur.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/arthur/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarAlex.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/about/alex.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarBase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarChaos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarDan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarDom.old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarDom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarKajani.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarKronos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarLina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarMemphis.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarMemphis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/avatarNate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/email.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/about/email.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/about/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/members.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/about/members.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/6_about/reddit.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/about/reddit.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

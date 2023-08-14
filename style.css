@@ -54,11 +54,11 @@
     /* LemonMilk font */
     @font-face {
         font-family: "FadeoutLemonMilk"; /* Give the font a name */
-        src: url("/_main/fonts/lemonMilk3.otf") format("opentype"); /* Specify the correct format */
+        src: url("/main/fonts/lemonMilk3.otf") format("opentype"); /* Specify the correct format */
     }
     @font-face {
         font-family: "FadeoutLemonMilkBI"; /* Give the font a name */
-        src: url("/_main/fonts/lemonMilk1.otf") format("opentype"); /* Specify the correct format */
+        src: url("/main/fonts/lemonMilk1.otf") format("opentype"); /* Specify the correct format */
     }
 
     /* Image pixelation */

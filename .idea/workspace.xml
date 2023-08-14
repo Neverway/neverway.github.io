@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html" />
+    <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
+      <change beforePath="$PROJECT_DIR$/_main/fonts/lemonMilk.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts/lemonMilk.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/fonts/lemonMilk1.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts/lemonMilk1.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/fonts/lemonMilk2.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts/lemonMilk2.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/fonts/lemonMilk3.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts/lemonMilk3.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/logo_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/logo_banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/plugins/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/plugins/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/plugins/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/plugins/particles.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

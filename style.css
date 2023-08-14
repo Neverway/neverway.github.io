@@ -1,0 +1,154 @@
+/*=== Header ===*/
+    /* Header - Style navigation bar*/
+    topbar {
+      z-index: 1;
+      position: fixed;
+      list-style-type: none;
+      margin: 0;
+      width: 100%;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(25, 25, 25, 0.5);
+    }
+
+    /* Header - Sort 'list item' left */
+    li {
+      float: left;
+    }
+
+    /* Header - Style 'anchor' within 'list item' */
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 5px 16px;
+      text-decoration: none;
+    }
+
+    /* Header - Set 'anchor' hover color */
+    a:hover:not(.active) {
+      background-color: rgba(255, 0, 0, 0.5);
+    }
+
+    /* Header - Set 'anchor' selected color */
+    .active {
+      background-color: rgba(255, 0, 0, 0.5);
+    }
+
+
+/*=== Background stars ===*/
+    /* Background - Style stars*/
+    #particles-js {
+      z-index: -1;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background-color: #000000;
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: 50% 50%;
+    }
+
+
+/*=== General page stuff ===*/
+    /* LemonMilk font */
+    @font-face {
+        font-family: "FadeoutLemonMilk"; /* Give the font a name */
+        src: url("/_main/fonts/lemonMilk3.otf") format("opentype"); /* Specify the correct format */
+    }
+    @font-face {
+        font-family: "FadeoutLemonMilkBI"; /* Give the font a name */
+        src: url("/_main/fonts/lemonMilk1.otf") format("opentype"); /* Specify the correct format */
+    }
+
+    /* Image pixelation */
+    .pixelated {
+      image-rendering: pixelated;
+    }
+
+    /* Text outline */
+    .outlined-text {
+      text-shadow: -2px -2px 0 #1E132E, 2px -2px 0 #1E132E, -2px 2px 0 #1E132E, 2px 2px 0 #1E132E;
+    }
+
+    /* Page body (Fixes background padding)*/
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #f5f5f5;
+    }
+
+
+/*=== Center page container ===*/
+    /* Outer container with spacing */
+    .outer-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      margin: 0 20px; /* Add spacing on the left and right sides */
+      box-sizing: border-box; /* Include margin in width calculation */
+      position: fixed;
+      top: 0;
+      left: 0;
+        overflow-y: auto; /* Enable vertical scrollbar when content exceeds height */
+    }
+
+    /* Centered content container */
+    .content-container {
+      background-color: rgba(3, 3, 3, 0.95); /* Slightly transparent */
+      position: absolute;
+      top: 0;
+      left: 10%; /* Adjust to match the margin of the outer container */
+      right: 10%; /* Adjust to match the margin of the outer container */
+    }
+
+
+/*=== About page profiles ===*/
+    .parent {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 0 auto;
+      max-width: 1000px; /* Adjust the max-width as needed */
+    }
+
+    .column {
+      width: 200px;
+      margin: 16px;
+      text-align: center;
+      background-color: transparent;
+      height: 310px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      object-fit: cover;
+      overflow: hidden;
+      padding: 8px 8px;
+      height: 310px;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+      transition: 0.3s;
+      background-color: #555;
+      padding: 16px 16px;
+    }
+
+    .box {
+      color: white;
+      padding: 16px 16px;
+      word-wrap: break-word;
+    }
+
+
+    .avatar {
+      vertical-align: middle;
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+    }

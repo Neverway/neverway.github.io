@@ -1,164 +1,34 @@
 <!-- Home page -->
 <!DOCTYPE html>
 
-<!-- Header -->
-<html>
-<!-- Style sheet -->
-<head>
+
+<!-- Style -->
+  <!-- Style sheet -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/_main/images/logo_icon.png">
   <title>Neverway</title>
-  <link rel="icon" type="image/x-icon" href="/files/1_main/logo_topbar.png">
-</head>
-
-
-<!-- Top bar -->
-<body>
   <!-- Particle background -->
   <div id="particles-js"></div>
-  <script type="text/javascript" src="/files/plugins/particles/particles.js"></script>
-  <script type="text/javascript" src="/files/plugins/particles/app.js"></script>
-
-  <!-- Navigation bar -->
-  <ul>
-    <li><div class="menu"><a class="active" href="/index.html"><img src="/files/1_main/logo_topbar_outlined.png" style="width:14px;height:16px;"></a></div></li>
-    <li><div class="menu"><a href="/games.html">Games</a></div></li>
-    <li><div class="menu"><a href="/animations&comics.html">Animations & Comics</a></div></li>
-    <li><div class="menu"><a href="/software.html">Software</a></div></li>
-   <!--<li><div class="menu"><a href="/deadend.html">Developers Corner</a></div></li>-->
-    <li><div class="menu"><a href="/about.html">About</a></div></li>
-  </ul>
-</body>
-</html>
-
+  <script type="text/javascript" src="/_main/plugins/particles.js"></script>
+  <script type="text/javascript" src="/_main/plugins/app.js"></script>
+  <!-- Topbar -->
+  <topbar style="font-family: 'FadeoutLemonMilk'">
+    <li><a class="active" href="/index.html" ><img src="/_main/images/logo_banner.png"></a></li>
+    <li><a style="padding:14.5px;" href="/games.html">Games</a></li>
+    <li><a style="padding:14.5px;" href="/animations&comics.html">Animations & Comics</a></li>
+    <li><a style="padding:14.5px;" href="/software.html">Software</a></li>
+    <li><a style="padding:14.5px;" href="/about.html">About</a></li>
+  </topbar>
+  <center><font size="12" color=#0f0f0f><br></font></center>
 
 
 <!-- Page -->
 <html>
-<!-- Header text -->
-<div id ="Title">
-<center><font size="12" color=#3a5c85>Welcome to</font></center>
-<center><img src="/files/1_main/logo_banner.png" style="width:30%;height:30%;"></center>
-<center><font size="6" color=#0f0f0f><br></font></center>
-</div>
-
-
-<!-- Featured video -->
-<center></center>
-
-<div class="slideshow-container">
-<!--
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <center><iframe width="800" height="600" src="https://www.youtube.com/embed/5V5vh8A4dl0?autoplay=0"></iframe></center>
-  <div class="text"></div>
-</div>
- -->
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <center><img width="800" height="auto" src="/files/1_main/featured_1.png"></center>
-  <div class="text">002-DAG13: New lighting system</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <center><img width="800" height="auto" src="/files/1_main/featured_2.png"></center>
-  <div class="text">002-DAG13: Development preview</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <center><img width="800" height="auto" src="/files/1_main/featured_3.png"></center>
-  <div class="text">009-ODS: New ship layout</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-<br>
-
-<!-- News -->
-<p class="news"><font size="5" color="white" style="text-decoration: underline;">Sep 20, 2022</font></p>
-<p class="news"><font size="5" color="lightgrey">Website</font></p><i>
-<p class="news"><font size="4" color="grey">Overall format for the website has been overhauled. Pages now use 16:9 for teasers too!</font></p></i>
-<p class="news"><font size="4" color="#1997EA">Arthur W. Sheldon AKA Lizband_UCC</font></p></i>
-<center><font size="6" color=#0f0f0f><br></font></center>
-
-<p class="news"><font size="5" color="white" style="text-decoration: underline;">May 4, 2022</font></p>
-<p class="news"><font size="5" color="lightgrey">Website</font></p><i>
-<p class="news"><font size="4" color="grey">Project pages have been reorganised. All teasers, images, and download links are currently down whilst I finish up the remainder of the pages. Sorry for any inconveniences & I'll try to have them back up soon!</font></p></i>
-<p class="news"><font size="5" color="lightgrey">Divine Annihilation</font></p><i>
-<p class="news"><font size="4" color="grey">After some more work the internal testing has officially begun!</font></p></i>
-<p class="news"><font size="5" color="lightgrey">O.D.S</font></p><i>
-<p class="news"><font size="4" color="grey">ODS is in an on an off development state since I'm focussing mainly on the Divine Annihilation project. Once the public Demo for that is released, ODS's development will kick in.</font></p></i>
-<p class="news"><font size="5" color="lightgrey">Fetch Quest</font></p><i>
-<p class="news"><font size="4" color="grey">Fetch Quest is also being put on hold while I focus on the Divine Annihilation Project and take some time to learn some better information storage formats (such as JSON.)</font></p></i>
-  <p class="news"><font size="5" color="lightgrey">NUPDK</font></p><i>
-<p class="news"><font size="4" color="grey">The NUPDK system is now in development, you can read more about it on it's software page! All project from this point forward will use NUPDK as their base, & Divine Annihilation has already been updated to use the NUPDK system!</font></p>
-<p class="news"><font size="4" color="grey">Best regards,</font></p>
-<p class="news"><font size="4" color="#1997EA">Arthur W. Sheldon AKA Lizband_UCC</font></p></i>
-<center><font size="6" color=#0f0f0f><br></font></center>
-
-<p class="news"><font size="5" color="white" style="text-decoration: underline;">January 31, 2022</font></p>
-<p class="news"><font size="5" color="lightgrey">Website</font></p><i>
-<p class="news"><font size="4" color="grey">The website has gotten another major update! A new tab has been added for Animations & Comics and the other tabs have been rearranged.</font></p></i>
-<p class="news"><font size="5" color="lightgrey">UltraEd64</font></p><i>
-<p class="news"><font size="4" color="grey">I'm working towards a full tutorial series for UltraEd that will cover making a platformer and a shooter. The first part of which I'm hoping to upload soon, but we'll see how that goes. Please keep in mind that the software is constantly being updated, so some parts of the tutorials may become outdated. But I will try to include a precompiled copy of the version of the engine I use with each video. </font></p></i>
-<p class="news"><font size="5" color="lightgrey">Divine Annihilation</font></p><i>
-<p class="news"><font size="4" color="grey">There are still quite a few things that have to be fixed before a closed test and review can be done, mainly the battle system. The project is currently in it's final proposed generation, G10. </font></p></i>
-<p class="news"><font size="5" color="lightgrey">O.D.S</font></p><i>
-<p class="news"><font size="4" color="grey">ODS has been moved off of hold and a re-work of the game mechanics is currently in development.</font></p></i>
-<p class="news"><font size="5" color="lightgrey">Fetch Quest</font></p><i>
-<p class="news"><font size="4" color="grey">The release of Fetch Quest, a multi-purpose planner designed like a videogame quest log, had to be delayed because a major bug had been found that needs to be fixed before release.</font></p>
-<p class="news"><font size="4" color="grey">Best regards,</font></p>
-<p class="news"><font size="4" color="#1997EA">Arthur W. Sheldon AKA Lizband_UCC</font></p></i>
-<center><font size="6" color=#0f0f0f><br></font></center>
-
-<p class="news"><font size="5" color="white" style="text-decoration: underline;">October 31, 2020</font></p>
-<p class="news"><font size="4" color="grey"><i>Happy Halloween! The website is getting an overhaul in design, I'm working towards setting up all of the sub pages for the site and fixing all of the dead links. Divine Annihilation is nearing it's beta stage and is currently in Alpha 9.5.0. We are also working on a small scale virtual reality project as well called O.D.S. You can find out more by going to each projects respective pages. Also expect festive updates for the website and games in the coming months, I won't be able to get something out for this Halloween but I have stuff planned for the future.</font></p>
-<p class="news"><font size="4" color="white"></font></p>
-<p class="news"><font size="4" color="grey">Best regards,</font></p>
-<p class="news"><font size="4" color="#1997EA">Arthur W. Sheldon AKA Lizband_UCC</i></font></p>
-<center><font size="6" color=#0f0f0f><br></font></center>
-
-<p class="news"><font size="5" color="white" style="text-decoration: underline;">June 30, 2020</font></p>
-<p class="news"><font size="4" color="grey"><i>The website has recently been updated and I am working on a new update video for Divine Annihilation. The game is currently in alpha 9.0.3. I hope you all will enjoy, and don't forget you can request features and report bugs in our community Discord server!</font></p>
-<p class="news"><font size="4" color="grey">Best regards,</font></p>
-<p class="news"><font size="4" color="#1997EA">Arthur W. Sheldon AKA Lizband_UCC</i></font></p>
-<!DOCTYPE html>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
+<body>
+  <div class="outer-container">
+    <div class="content-container">
+    </div>
+  </div>
+</body>
+</html>

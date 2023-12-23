@@ -1,128 +1,126 @@
+
 <!-- Home page -->
 <!DOCTYPE html>
-
-
-<!-- Style -->
-  <!-- Style sheet -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/style.css">
-  <link rel="icon" type="image/x-icon" href="/main/images/logo_icon.png">
-  <title>Neverway</title>
-  <!-- Particle background -->
-  <div id="particles-js"></div>
-  <script type="text/javascript" src="/main/plugins/particles.js"></script>
-  <script type="text/javascript" src="/main/plugins/app.js"></script>
-  <style>
-    .outer-container {
-      display: flex;
-    }
-    .sidebar {
-      width: 20%; /* Adjust the width as needed */
-      background-color: #f0f0f0; /* Sidebar background color */
-      padding: 20px;
-    }
-    .main-content {
-      width: 80%; /* Adjust the width as needed */
-      padding: 20px;
-    }
-  </style>
-  <!-- Topbar -->
-  <topbar style="font-family: 'FadeoutLemonMilk'">
-    <li><a href="/index.html" ><img src="/main/images/logo_banner.png"></a></li>
-    <li><a class="active" style="padding:12px;" href="/games.html">Games</a></li>
-    <li><a style="padding:12px;" href="/animations&comics.html">Animations & Comics</a></li>
-    <li><a style="padding:12px;" href="/software.html">Software</a></li>
-    <li><a style="padding:12px;" href="/about.html">About</a></li>
-  </topbar>
-  <center><font size="12" color=#0f0f0f><br></font></center>
-
-
-<!-- Page -->
 <html>
+<head>
+    <!-- Style -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/main/images/logo_icon.png">
+    <title>Neverway</title>
+    <!-- Particle background -->
+    <div id="particles-js"></div>
+    <script type="text/javascript" src="/main/plugins/particles.js"></script>
+    <script type="text/javascript" src="/main/plugins/app.js"></script>
+    <style>
+        body {
+            margin: 0; /* Remove default margin */
+            font-family: 'FadeoutLemonMilk';
+            display: flex; /* Use flex display for layout */
+        }
+
+        /* Style for the sidebar */
+        .sidebar {
+            background-color: #000000;
+            padding: 20px;
+            position: fixed; /* Fixed position to stay on the side */
+            left: 0; /* Ensure the sidebar is on the left */
+            top: 0; /* Keep the sidebar at the top of the screen */
+            height: 100%; /* Occupy full height */
+            overflow: auto;
+        }
+
+        /* Style for the main content */
+        .main-content {
+            width: 80%; /* Adjust the width as needed */
+            padding: 20px;
+            overflow: auto;
+        }
+
+        /* Add some styling for the table of contents */
+        .toc {
+            padding: 20px;
+        }
+
+        /* Add some styling for the content section */
+        .content-section {
+            padding: 20px;
+        }
+        .outer-container {
+            padding-top: 350px;
+            display: flex;
+        }
+        /* CSS for the accordion-style menu */
+        ul.sub-menu {
+            display: none;
+            list-style-type: none;
+        }
+
+        li:hover ul.sub-menu {
+            display: block;
+        }
+
+    </style>
+    <!-- Topbar -->
+    <topbar style="font-family: 'FadeoutLemonMilk'">
+        <li><a href="/index.html"><img src="/main/images/logo_banner.png"></a></li>
+        <li><a class="active" style="padding:12px;" href="/games.html">Games</a></li>
+        <li><a style="padding:12px;" href="/animations&comics.html">Animations & Comics</a></li>
+        <li><a style="padding:12px;" href="/software.html">Software</a></li>
+        <li><a style="padding:12px;" href="/about.html">About</a></li>
+    </topbar>
+    <center><font size="12" color="#0f0f0f"><br></font></center>
+</head>
 <body>
-  <div class="outer-container">
-    <div class="content-container">
-    <center><font size="12" color=#0f0f0f><br></font></center>
+    <div class="outer-container">
+        <!-- Left sidebar for table of contents -->
+        <div class="sidebar">
+            <div class="toc">
+                <h3><font size="5" color="grey">Contents</font></h3>
+                <!-- Add your table of contents here -->
+                <ul>
+                    <li><font size="2.5" color="grey"><a href="#section1">1. Entities</a></font>
+                        <ul class="sub-menu">
+                            <li><font size="2.5" color="grey"><a href="#section1.1">1.1. Animations</a></font></li><br>
+                            <li><font size="2.5" color="grey"><a href="#section1.2">1.2. Functions</a></font></li><br>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-      <center><font size="4" color=#0f0f0f><br></font></center>
-      <center><font style="font-family: 'FadeoutLemonMilk'" size="12" color="grey">Divine Annihilation Dev Docs</font></center>
-      <center><font size="4" color=#0f0f0f><br></font></center>
-
-
-      <font style="font-family: 'FadeoutLemonMilk'" size="6" color="grey">Level Assets</font>
-      <p class="news">
-        <b><font size="5" color="grey" style="text-decoration: underline;">About</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Props</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Structures</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Interactables</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Entities</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Items</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-      <center><font size="6" color=#0f0f0f><br></font></center>
-
-      <font style="font-family: 'FadeoutLemonMilk'" size="6" color="grey">Entities</font>
-      <p class="news">
-        <b><font size="5" color="grey" style="text-decoration: underline;">About</font></b>
-      <p class="news"><font size="4" color="grey"><i>An entity is a "living" object that can be controlled by a local
-      player, computer, or network player.</i></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Creating an Entity</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add guide here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-      <center><font size="6" color=#0f0f0f><br></font></center>
-
-      <font style="font-family: 'FadeoutLemonMilk'" size="6" color="grey">Items</font>
-      <p class="news">
-        <b><font size="5" color="grey" style="text-decoration: underline;">About</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Utilities</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Weapons</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Magic</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Defense</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-      <center><font size="6" color=#0f0f0f><br></font></center>
-
-      <font style="font-family: 'FadeoutLemonMilk'" size="6" color="grey">Trigger Volumes</font>
-      <p class="news">
-        <b><font size="5" color="grey" style="text-decoration: underline;">About</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add description here</i></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Damage Triggers</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add guide here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Force Triggers</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add guide here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Textbox Triggers</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add guide here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Music Triggers</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add guide here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Shop Triggers</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add guide here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-        <b><font size="5" color="grey" style="text-decoration: underline;">Warp Triggers</font></b>
-      <p class="news"><font size="4" color="grey"><i>Add guide here</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-      <center><font size="6" color=#0f0f0f><br></font></center>
-
+        <!-- Right content section -->
+        <div class="main-content">
+            <div class="content-section" id="section1">
+                <b><font size="5" color="lightgrey" style="text-decoration: underline;">Content Browser Layout</font></b>
+                <p class="news" id="section1.1"><font size="5" color="grey" style="text-decoration: underline;">Resources</font></p>
+                <p class="news"><font size="4" color="grey"><i>This is the core folder where all the games assets are stored, with the exception being some asset that are a part of an imported package.</i></font></p>
+                <p class="news" id="section1.2"><font size="5" color="grey" style="text-decoration: underline;">Materials</font></p>
+                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
+                <p class="news" id="section1.3"><font size="5" color="grey" style="text-decoration: underline;">Meshes</font></p>
+                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
+                <p class="news" id="section1.4"><font size="5" color="grey" style="text-decoration: underline;">Other</font></p>
+                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
+                <p class="news" id="section1.5"><font size="5" color="grey" style="text-decoration: underline;">Prefabs</font></p>
+                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
+                <p class="news" id="section1.6"><font size="5" color="grey" style="text-decoration: underline;">Scenes</font></p>
+                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
+                <p class="news" id="section1.7"><font size="5" color="grey" style="text-decoration: underline;">Scripts</font></p>
+                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
+                <p class="news" id="section1.8"><font size="5" color="grey" style="text-decoration: underline;">Sound</font></p>
+                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
+                <p class="news" id="section1.9"><font size="5" color="grey" style="text-decoration: underline;">Sprites</font></p>
+                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
+                <p class="news" id="section1.10"><font size="5" color="grey" style="text-decoration: underline;">UI</font></p>
+            </div>
+            <div class="content-section" id="section2">
+                <b><font size="5" color="grey" style="text-decoration: underline;">Website Layout Changes</font></b>
+            </div>
+            <div class="content-section" id="section3">
+                <b><font size="5" color="grey" style="text-decoration: underline;">Website Layout Changes</font></b>
+            </div>
+        </div>
     </div>
-  </div>
 </body>
+
 </html>

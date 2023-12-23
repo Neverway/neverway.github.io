@@ -1,0 +1,148 @@
+
+<!-- Home page -->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Style -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/main/images/logo_icon.png">
+    <title>Neverway</title>
+    <!-- Particle background -->
+    <div id="particles-js"></div>
+    <script type="text/javascript" src="/main/plugins/particles.js"></script>
+    <script type="text/javascript" src="/main/plugins/app.js"></script>
+    <style>
+        body {
+            margin: 0; /* Remove default margin */
+            font-family: 'FadeoutLemonMilk';
+            display: flex; /* Use flex display for layout */
+            font-size: 18px; /* Adjust the font size as needed */
+            color: grey;
+        }
+        .step {
+            background-color: #11ffff06;
+            margin: 0; /* Remove default margin */
+            font-family: 'FadeoutLemonMilk';
+            display: flex; /* Use flex display for layout */
+            font-size: 16px; /* Adjust the font size as needed */
+            font-weight: bold;
+            color: #444444;
+        }
+
+        /* Style for the sidebar */
+        .sidebar {
+            background-color: #111111;
+            padding: 0px;
+            position: fixed; /* Fixed position to stay on the side */
+            left: 0; /* Ensure the sidebar is on the left */
+            top: 47px; /* Keep the sidebar at the top of the screen */
+            height: 100%; /* Occupy full height */
+        }
+
+        /* Style for the main content */
+        .main-content {
+            width: 80%; /* Adjust the width as needed */
+            padding: 20px;
+            padding-left: 120px;
+            overflow: auto;
+        }
+
+        /* Add some styling for the table of contents */
+        .toc {
+            padding: 20px;
+        }
+
+        /* Add some styling for the content section */
+        .content-section {
+            padding: 20px;
+        }
+        .outer-container {
+            padding-top: 350px;
+            display: flex;
+        }
+        /* CSS for the accordion-style menu */
+        ul.sub-menu {
+            display: none;
+            list-style-type: none;
+        }
+
+        li:hover ul.sub-menu {
+            display: block;
+            width: 100px; /* Adjust the width as needed */
+            font-size: 12px; /* Adjust the font size as needed */
+            color: grey;
+            text-decoration: none; /* Remove underlines from links */
+        }
+        .image-container {
+          position: relative;
+          width: 75%;
+          margin: 0 auto; /* Center the container horizontally */
+          height: 360px;
+        }
+
+    </style>
+    <!-- Topbar -->
+    <topbar style="font-family: 'FadeoutLemonMilk'">
+        <li><a href="/index.html"><img src="/main/images/logo_banner.png"></a></li>
+        <li><a class="active" style="padding:12px;" href="/games.html">Games</a></li>
+        <li><a style="padding:12px;" href="/animations&comics.html">Animations & Comics</a></li>
+        <li><a style="padding:12px;" href="/software.html">Software</a></li>
+        <li><a style="padding:12px;" href="/about.html">About</a></li>
+    </topbar>
+    <center><font size="12" color="#0f0f0f"><br></font></center>
+</head>
+<body>
+    <div class="outer-container">
+        <!-- Left sidebar for table of contents -->
+        <div class="sidebar">
+            <div class="toc">
+                <h3><font size="5" color="grey">Contents</font></h3>
+                <!-- Add your table of contents here -->
+                <ul>
+                    <li><font size="2.5" color="grey"><a href="#section1">Building the Engine</a></font>
+                        <ul class="sub-menu">
+                            <li><a href="#section1.1">Introduction</a></li><br>
+                            <li><a href="#section1.2">Getting the files</a></li><br>
+                            <li><a href="#section1.3">Compiling the engine</a></li><br>
+                            <li><a href="#section1.4">Initial project setup</a></li><br>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right content section -->
+        <div class="main-content">
+            <div class="content-section" id="section1">
+                  <div class="image-container"id="section1.1">
+                    <img src="/games/four/banner.png" class="background-image">
+                  </div>
+                <center><font style="font-family: 'FadeoutLemonMilk'" size="6" color="grey">Modding Resource</font></center>
+                <center><font style="font-family: 'FadeoutLemonMilk'" size="4" color="grey">By Liz M.</font></center>
+                <center><font style="font-family: 'FadeoutLemonMilk'" size="2" color="grey">Last updated: 23/12/23</font></center>
+                <b><font size="5" color="lightgrey" style="text-decoration: underline;">Building the Engine</font></b>
+                <p class="news" ><font size="5" color="grey" style="text-decoration: underline;">Introduction</font></p>
+                <p class="news"><font size="4" color="grey"><i>This is a guide on how to build Fadeout: Underground by Pandan from the source code provided on GitHub. Currently, this step-by-step guide has only been tested and confirmed working on Linux based operating systems using an AMD GPU. Good Luck!</i></font></p>
+                <center><font size="4" color=#0f0f0f><br></font></center>
+
+                <p class="news" id="section1.2"><font size="5" color="grey" style="text-decoration: underline;">Getting the files</font></p>
+                <p class="body">Okay, to begin, we are going to create a folder to hold all the files for this project in one place.</p>
+                <p class="step">1.) Create a folder, (preferably on your Desktop,) that we'll call "FadeoutSource"</p>
+                <p class="body">Now, we'll need to download a few zip files for the engine, the project, and the required plugins. First up, let's download the engine files.</p>
+                <p class="step"><a href="https://github.com/westomopresto/Fadeout-Fork-UE4-4.24.3">2.) Go to "https://github.com/westomopresto/Fadeout-Fork-UE4-4.24.3" in your web browser (or click this step)</a></p>
+                <p class="body">In the top left of the middle part of the page you'll see the drop-down for the selected branch. By default the selected branch should be "release."</p>
+                <p class="step">3.) Switch the selected branch from "release" to "Fadeout-Fork-4.24"</p>
+                <p class="step">4.) Now select the green "<> Code" button, and click "Download ZIP"</p>
+                <p class="body">This should start the download for the zip file containing the engine.</p>
+                <p class="step">5.) Once the download has completed, move "Fadeout-Fork-UE4-4.24.3-Fadeout-Fork-4.24.zip" from your downloads folder to the "FadeoutSource" folder we created in step 1</p>
+                <center><font size="4" color=#0f0f0f><br></font></center>
+
+                <p class="news" id="section1.3"><font size="5" color="grey" style="text-decoration: underline;">Compiling the engine</font></p>
+                <p class="news" id="section1.4"><font size="5" color="grey" style="text-decoration: underline;">Initial project setup</font></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

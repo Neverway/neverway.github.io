@@ -115,7 +115,7 @@
       position: fixed;
       top: 0;
       left: 0;
-        overflow-y: auto; /* Enable vertical scrollbar when content exceeds height */
+      overflow-y: auto; /* Enable vertical scrollbar when content exceeds height */
     }
 
     /* Centered content container */

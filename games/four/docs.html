@@ -29,6 +29,14 @@
             font-weight: bold;
             color: #444444;
         }
+        .error {
+            background-color: #11ffff06;
+            margin: 0; /* Remove default margin */
+            font-family: 'FadeoutLemonMilk';
+            display: flex; /* Use flex display for layout */
+            font-size: 12px; /* Adjust the font size as needed */
+            color: #660f0f;
+        }
 
         /* Style for the sidebar */
         .sidebar {
@@ -74,11 +82,16 @@
             color: grey;
             text-decoration: none; /* Remove underlines from links */
         }
-        .image-container {
-          position: relative;
+        .banner-image {
+          padding-top: 350px;
           width: 75%;
-          margin: 0 auto; /* Center the container horizontally */
-          height: 360px;
+          height: 75%;
+        }
+        .figure-image {
+          display: block;
+          width: 35%;
+          display: inline-block;
+          height: 35%;
         }
 
     </style>
@@ -115,9 +128,7 @@
         <!-- Right content section -->
         <div class="main-content">
             <div class="content-section" id="section1">
-                  <div class="image-container"id="section1.1">
-                    <img src="/games/four/banner.png" class="background-image">
-                  </div>
+                <center><img id="section1.1"src="/games/four/banner.png" class="banner-image"></center>
                 <center><font style="font-family: 'FadeoutLemonMilk'" size="6" color="grey">Modding Resource</font></center>
                 <center><font style="font-family: 'FadeoutLemonMilk'" size="4" color="grey">By Liz M.</font></center>
                 <center><font style="font-family: 'FadeoutLemonMilk'" size="2" color="grey">Last updated: 23/12/23</font></center>
@@ -132,10 +143,25 @@
                 <p class="body">Now, we'll need to download a few zip files for the engine, the project, and the required plugins. First up, let's download the engine files.</p>
                 <p class="step"><a href="https://github.com/westomopresto/Fadeout-Fork-UE4-4.24.3">2.) Go to "https://github.com/westomopresto/Fadeout-Fork-UE4-4.24.3" in your web browser (or click this step)</a></p>
                 <p class="body">In the top left of the middle part of the page you'll see the drop-down for the selected branch. By default the selected branch should be "release."</p>
+                <img src="/games/four/docs_fig0.png" class="figure-image"><img src="/games/four/docs_fig1.png" class="figure-image">
                 <p class="step">3.) Switch the selected branch from "release" to "Fadeout-Fork-4.24"</p>
                 <p class="step">4.) Now select the green "<> Code" button, and click "Download ZIP"</p>
                 <p class="body">This should start the download for the zip file containing the engine.</p>
                 <p class="step">5.) Once the download has completed, move "Fadeout-Fork-UE4-4.24.3-Fadeout-Fork-4.24.zip" from your downloads folder to the "FadeoutSource" folder we created in step 1</p>
+                <p class="body">Next we'll download the project files.</p>
+                <img src="/games/four/docs_fig2.png" class="figure-image">
+                <p class="step"><a href="https://github.com/westomopresto/Grapple">6.) Go to "https://github.com/westomopresto/Grapple" in your web browser (or click this step)</a></p>
+                <p class="step">7.) Now select the green "<> Code" button, and click "Download ZIP"</p>
+                <p class="body">Before we can start building the engine, there is one more file that we're missing. If we try to build the engine now, it will give us this error:</p>
+                <p class="error">Failed to download 'http://cdn.unrealengine.com/dependencies/3080521-4555593138d749878eace1a85d45da69/02a0f12c2e24355ee396573eb72a2ae8cf84e86a': The remote server returned an error: (403) Forbidden. (WebException)</p>
+                <p class="body">This just means it wasn't able to access the server required to get the files. (If you want to know more details about this issue you can find them <a href="https://forums.unrealengine.com/t/upcoming-disruption-of-service-impacting-unreal-engine-users-on-github/1155880">here</a>)</p>
+                <p class="body">To fix this issue, we'll need to get a new file that will point the engine to the correct place.</p>
+                <img src="/games/four/docs_fig3.png" class="figure-image">
+                <p class="step"><a href="https://github.com/EpicGames/UnrealEngine/releases?page=3">8.) Go to "https://github.com/EpicGames/UnrealEngine/releases?page=3" in your web browser (or click this step)</a></p>
+                <p class="step">9.) Look for the section labeled "Unreal Engine 4.24.3" (you may have to go to the next page)</p>
+                <p class="step">10.) Select the "Asssets" drop down arrow</p>
+                <p class="step">11.) Select the file called "Commit.gitdeps.xml"</p>
+
                 <center><font size="4" color=#0f0f0f><br></font></center>
 
                 <p class="news" id="section1.3"><font size="5" color="grey" style="text-decoration: underline;">Compiling the engine</font></p>

@@ -127,6 +127,39 @@
       right: 15%; /* Adjust to match the margin of the outer container */
     }
 
+/*=== Project page profiles ===*/
+    /* Centered content container */
+    .project-container {
+      background-color: rgba(6, 6, 6, 0.95); /* Slightly transparent */
+      position: absolute;
+      top: 0;
+      left: 25%; /* Adjust to match the margin of the outer container */
+      right: 25%; /* Adjust to match the margin of the outer container */
+    }
+    .banner-card {
+      position: relative;
+      overflow: hidden;
+      transition: 0.3s;
+      padding: 4px 4px;
+    }
+    .banner-card:hover {
+      background-color: #555;
+      padding: 8px 8px;
+    }
+    .banner-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .overlay-logo {
+      position: absolute;
+      top: -22%;
+      height: 100%;
+      left: 20%;
+      display: block;
+    }
+
 
 /*=== About page profiles ===*/
     .parent {

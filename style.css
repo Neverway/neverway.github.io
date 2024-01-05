@@ -130,13 +130,14 @@
 /*=== Project page profiles ===*/
     /* Centered content container */
     .project-container {
-      background-color: rgba(6, 6, 6, 0.95); /* Slightly transparent */
+      /*background-color: rgba(6, 6, 6, 0.95);  Slightly transparent */
       position: absolute;
-      top: 0;
+      top: 5%;
       left: 25%; /* Adjust to match the margin of the outer container */
       right: 25%; /* Adjust to match the margin of the outer container */
     }
     .banner-card {
+      background-color: #5552;
       position: relative;
       overflow: hidden;
       transition: 0.3s;

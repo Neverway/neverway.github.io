@@ -160,6 +160,12 @@
       left: 20%;
       display: block;
     }
+    .overlay-logo-wide {
+      position: absolute;
+      top: -0%;
+      height: 100%;
+      display: block;
+    }
 
 
 /*=== About page profiles ===*/

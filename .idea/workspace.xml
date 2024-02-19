@@ -20,14 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
-      <change afterPath="$PROJECT_DIR$/files/home/featured_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/home/featured_2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/home/featured_2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/home/featured_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/home/featured_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/midwen/PatchDesign.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/midwen/docs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/midwen/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/midwen/library_capsule.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/midwen/library_hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/midwen/library_hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/midwen/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/midwen/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/PatchDesign.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/docs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/library_capsule.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/library_hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/library_hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animations&amp;comics.html" beforeDir="false" afterPath="$PROJECT_DIR$/animations&amp;comics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/files/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/software" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/games/da/main.html" />
@@ -81,11 +94,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/software" />
+      <recent name="$PROJECT_DIR$/art" />
       <recent name="$PROJECT_DIR$/files/home" />
       <recent name="$PROJECT_DIR$/games/four" />
       <recent name="$PROJECT_DIR$/games" />
-      <recent name="$PROJECT_DIR$/games/da" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

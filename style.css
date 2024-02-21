@@ -25,8 +25,7 @@
       text-decoration: none;
     }
 
-    /* Header - Set 'anchor' hover color */
-    a:hover:not(.active) {
+    a:hover:not(.active):not(.download-demo):not(.download-steam):not(.download-android):not(.download-source) {
       background-color: rgba(255, 0, 0, 0.5);
     }
 
@@ -82,6 +81,7 @@
     /* Image in image */
     .image-container {
       position: relative;
+      object-fit: cover;
       width: 100%;
       margin: 0 auto; /* Center the container horizontally */
       height: 200px;
@@ -165,6 +165,49 @@
       top: -0%;
       height: 100%;
       display: block;
+    }
+    .overlay-logo-center {
+      position: absolute;
+      top: 50%; /* Center the overlay image vertically */
+      left: 50%; /* Center the overlay image horizontally */
+      transform: translate(-50%, -50%); /* Center the overlay image perfectly */
+      z-index: 1; /* Ensure the overlay is on top of the background image */
+      image-rendering: pixelated;
+    }
+    .overlay-logo-bottomLeft {
+      position: absolute;
+      top: 50%; /* Center the overlay image vertically */
+      left: 50%; /* Center the overlay image horizontally */
+      transform: translate(-50%, -75%); /* Center the overlay image perfectly */
+      z-index: 1; /* Ensure the overlay is on top of the background image */
+      image-rendering: pixelated;
+    }
+    .tag-image {
+      padding: 0px 2px;
+      height: 25px;
+    }
+    .tag-container {
+      position: relative;
+      object-fit: cover;
+      width: 100%;
+      margin: 0 auto; /* Center the container horizontally */
+      height: 35px;
+    }
+    .download-demo {
+      background-color: #824a1d; /* Green */
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16; /* Adjust font size relative to the button's dimensions */
+      width: 175px; /* Adjust width as needed */
+      height: 50px; /* Adjust height as needed */
+      line-height: 50px; /* Vertical alignment */
+    }
+
+    a:hover:not(.active) {
+      opacity: 0.8; /* Adjust the opacity value as needed */
     }
 
 

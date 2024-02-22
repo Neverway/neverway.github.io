@@ -20,11 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data.br" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js.br" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm.br" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/StreamingAssets/UnityServicesProjectConfiguration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/MemoryProfiler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/fullscreen-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/progress-bar-empty-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/progress-bar-empty-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/progress-bar-full-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/progress-bar-full-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/unity-logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/unity-logo-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/webgl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/webmemd-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/featured_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/featured_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/featured_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/software/ctgr/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +85,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/art/midwen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/software/ctgr/demo" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/games/da/main.html" />
@@ -79,18 +93,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/art/midwen" />
+      <recent name="$PROJECT_DIR$/software/ctgr/demo" />
       <recent name="$PROJECT_DIR$/software/ctgr" />
+      <recent name="$PROJECT_DIR$/art/midwen" />
       <recent name="$PROJECT_DIR$/games/four" />
       <recent name="$PROJECT_DIR$/main/images" />
-      <recent name="$PROJECT_DIR$/games/da" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/software/ctgr/demo" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/games/da" />
       <recent name="$PROJECT_DIR$/games" />
       <recent name="$PROJECT_DIR$/files/home" />
-      <recent name="$PROJECT_DIR$/files/about" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />

@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
-      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data.br" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js.br" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm.br" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/demo/demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

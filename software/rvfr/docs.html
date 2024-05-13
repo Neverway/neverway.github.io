@@ -17,23 +17,42 @@
             margin: 0; /* Remove default margin */
             font-family: 'FadeoutLemonMilk';
             display: flex; /* Use flex display for layout */
+            font-size: 18px; /* Adjust the font size as needed */
+            color: grey;
+        }
+        .step {
+            background-color: #11ffff06;
+            margin: 0; /* Remove default margin */
+            font-family: 'FadeoutLemonMilk';
+            display: flex; /* Use flex display for layout */
+            font-size: 16px; /* Adjust the font size as needed */
+            font-weight: bold;
+            color: #444444;
+        }
+        .error {
+            background-color: #11ffff06;
+            margin: 0; /* Remove default margin */
+            font-family: 'FadeoutLemonMilk';
+            display: flex; /* Use flex display for layout */
+            font-size: 12px; /* Adjust the font size as needed */
+            color: #660f0f;
         }
 
         /* Style for the sidebar */
         .sidebar {
-            background-color: #000000;
-            padding: 20px;
+            background-color: #111111;
+            padding: 0px;
             position: fixed; /* Fixed position to stay on the side */
             left: 0; /* Ensure the sidebar is on the left */
-            top: 0; /* Keep the sidebar at the top of the screen */
+            top: 47px; /* Keep the sidebar at the top of the screen */
             height: 100%; /* Occupy full height */
-            overflow: auto;
         }
 
         /* Style for the main content */
         .main-content {
             width: 80%; /* Adjust the width as needed */
             padding: 20px;
+            padding-left: 120px;
             overflow: auto;
         }
 
@@ -46,9 +65,9 @@
         .content-section {
             padding: 20px;
         }
-        .outer-container {
-            padding-top: 350px;
-            display: flex;
+        .outer-container2 {
+          display: flex;
+          justify-content: center;
         }
         /* CSS for the accordion-style menu */
         ul.sub-menu {
@@ -58,66 +77,94 @@
 
         li:hover ul.sub-menu {
             display: block;
+            width: 100px; /* Adjust the width as needed */
+            font-size: 12px; /* Adjust the font size as needed */
+            color: grey;
+            text-decoration: none; /* Remove underlines from links */
+        }
+        .banner-image {
+          width: 75%;
+          height: 75%;
+        }
+        .figure-image {
+          display: block;
+          width: 35%;
+          display: inline-block;
+          height: 35%;
         }
 
     </style>
     <!-- Topbar -->
     <topbar style="font-family: 'FadeoutLemonMilk'">
         <li><a href="/index.html"><img src="/main/images/logo_banner.png"></a></li>
-        <li><a class="active" style="padding:12px;" href="/games.html">Games</a></li>
+        <li><a style="padding:12px;" href="/games.html">Games</a></li>
         <li><a style="padding:12px;" href="/animations&comics.html">Animations & Comics</a></li>
-        <li><a style="padding:12px;" href="/software.html">Software</a></li>
+        <li><a class="active" style="padding:12px;" href="/software.html">Software</a></li>
         <li><a style="padding:12px;" href="/about.html">About</a></li>
     </topbar>
     <center><font size="12" color="#0f0f0f"><br></font></center>
 </head>
 <body>
-    <div class="outer-container">
         <!-- Left sidebar for table of contents -->
         <div class="sidebar">
             <div class="toc">
                 <h3><font size="5" color="grey">Contents</font></h3>
                 <!-- Add your table of contents here -->
                 <ul>
-                    <li><font size="2.5" color="grey"><a href="#section1">1. Entities</a></font>
+                    <li><font size="2.5" color="grey"><a href="#section1">Getting Started</a></font>
                         <ul class="sub-menu">
-                            <li><font size="2.5" color="grey"><a href="#section1.1">1.1. Animations</a></font></li><br>
-                            <li><font size="2.5" color="grey"><a href="#section1.2">1.2. Functions</a></font></li><br>
+                            <li><a href="#section1.1">Introduction</a></li><br>
+                            <li><a href="#section1.2">Cloning the project</a></li><br>
+                            <li><a href="#section1.3">Best practices</a></li><br>
+                            <li><a href="#section1.4">Updating the framework</a></li><br>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
 
+    <div class="outer-container2">
         <!-- Right content section -->
         <div class="main-content">
             <div class="content-section" id="section1">
-                <b><font size="5" color="lightgrey" style="text-decoration: underline;">Content Browser Layout</font></b>
-                <p class="news" id="section1.1"><font size="5" color="grey" style="text-decoration: underline;">Resources</font></p>
-                <p class="news"><font size="4" color="grey"><i>This is the core folder where all the games assets are stored, with the exception being some asset that are a part of an imported package.</i></font></p>
-                <p class="news" id="section1.2"><font size="5" color="grey" style="text-decoration: underline;">Materials</font></p>
-                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
-                <p class="news" id="section1.3"><font size="5" color="grey" style="text-decoration: underline;">Meshes</font></p>
-                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
-                <p class="news" id="section1.4"><font size="5" color="grey" style="text-decoration: underline;">Other</font></p>
-                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
-                <p class="news" id="section1.5"><font size="5" color="grey" style="text-decoration: underline;">Prefabs</font></p>
-                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
-                <p class="news" id="section1.6"><font size="5" color="grey" style="text-decoration: underline;">Scenes</font></p>
-                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
-                <p class="news" id="section1.7"><font size="5" color="grey" style="text-decoration: underline;">Scripts</font></p>
-                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
-                <p class="news" id="section1.8"><font size="5" color="grey" style="text-decoration: underline;">Sound</font></p>
-                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
-                <p class="news" id="section1.9"><font size="5" color="grey" style="text-decoration: underline;">Sprites</font></p>
-                <p class="news"><font size="4" color="grey"><i>Add description</i></font></p>
-                <p class="news" id="section1.10"><font size="5" color="grey" style="text-decoration: underline;">UI</font></p>
-            </div>
-            <div class="content-section" id="section2">
-                <b><font size="5" color="grey" style="text-decoration: underline;">Website Layout Changes</font></b>
-            </div>
-            <div class="content-section" id="section3">
-                <b><font size="5" color="grey" style="text-decoration: underline;">Website Layout Changes</font></b>
+                <center><img id="section1.1"src="./logo.png" class="banner-image"></center>
+                <center><font style="font-family: 'FadeoutLemonMilk'" size="6" color="grey">Modding Resource</font></center>
+                <center><font style="font-family: 'FadeoutLemonMilk'" size="4" color="grey">By Liz M.</font></center>
+                <center><font style="font-family: 'FadeoutLemonMilk'" size="2" color="grey">Last updated: May 05, 2024</font></center>
+                <b><font size="5" color="lightgrey" style="text-decoration: underline;">Getting Started</font></b>
+                <p class="news" ><font size="5" color="grey" style="text-decoration: underline;">Introduction</font></p>
+                <p class="news"><font size="4" color="grey"><i>This is a guide on how to build Fadeout: Underground by Pandan from the source code provided on GitHub. Currently, this step-by-step guide has only been tested and confirmed working on Linux based operating systems using an AMD GPU. Good Luck!</i></font></p>
+                <center><font size="4" color=#0f0f0f><br></font></center>
+
+                <p class="news" id="section1.2"><font size="5" color="grey" style="text-decoration: underline;">Getting the files</font></p>
+                <p class="body">Okay, to begin, we are going to create a folder to hold all the files for this project in one place.</p>
+                <p class="step">1.) Create a folder, (preferably on your Desktop,) that we'll call "FadeoutSource"</p>
+                <p class="body">Now, we'll need to download a few zip files for the engine, the project, and the required plugins. First up, let's download the engine files.</p>
+                <p class="step"><a href="https://github.com/westomopresto/Fadeout-Fork-UE4-4.24.3">2.) Go to "https://github.com/westomopresto/Fadeout-Fork-UE4-4.24.3" in your web browser (or click this step)</a></p>
+                <p class="body">In the top left of the middle part of the page you'll see the drop-down for the selected branch. By default the selected branch should be "release."</p>
+                <img src="/games/four/docs_fig0.png" class="figure-image"><img src="/games/four/docs_fig1.png" class="figure-image">
+                <p class="step">3.) Switch the selected branch from "release" to "Fadeout-Fork-4.24"</p>
+                <p class="step">4.) Now select the green "<> Code" button, and click "Download ZIP"</p>
+                <p class="body">This should start the download for the zip file containing the engine.</p>
+                <p class="step">5.) Once the download has completed, move "Fadeout-Fork-UE4-4.24.3-Fadeout-Fork-4.24.zip" from your downloads folder to the "FadeoutSource" folder we created in step 1</p>
+                <p class="body">Next we'll download the project files.</p>
+                <img src="/games/four/docs_fig2.png" class="figure-image">
+                <p class="step"><a href="https://github.com/westomopresto/Grapple">6.) Go to "https://github.com/westomopresto/Grapple" in your web browser (or click this step)</a></p>
+                <p class="step">7.) Now select the green "<> Code" button, and click "Download ZIP"</p>
+                <p class="body">Before we can start building the engine, there is one more file that we're missing. If we try to build the engine now, it will give us this error:</p>
+                <p class="error">Failed to download 'http://cdn.unrealengine.com/dependencies/3080521-4555593138d749878eace1a85d45da69/02a0f12c2e24355ee396573eb72a2ae8cf84e86a': The remote server returned an error: (403) Forbidden. (WebException)</p>
+                <p class="body">This just means it wasn't able to access the server required to get the files. (If you want to know more details about this issue you can find them <a href="https://forums.unrealengine.com/t/upcoming-disruption-of-service-impacting-unreal-engine-users-on-github/1155880">here</a>)</p>
+                <p class="body">To fix this issue, we'll need to get a new file that will point the engine to the correct place.</p>
+                <img src="/games/four/docs_fig3.png" class="figure-image">
+                <p class="step"><a href="https://github.com/EpicGames/UnrealEngine/releases?page=3">8.) Go to "https://github.com/EpicGames/UnrealEngine/releases?page=3" in your web browser (or click this step)</a></p>
+                <p class="step">9.) Look for the section labeled "Unreal Engine 4.24.3" (you may have to go to the next page)</p>
+                <p class="step">10.) Select the "Asssets" drop down arrow</p>
+                <p class="step">11.) Select the file called "Commit.gitdeps.xml"</p>
+
+                <center><font size="4" color=#0f0f0f><br></font></center>
+
+                <p class="news" id="section1.3"><font size="5" color="grey" style="text-decoration: underline;">Compiling the engine</font></p>
+                <p class="news" id="section1.4"><font size="5" color="grey" style="text-decoration: underline;">Initial project setup</font></p>
             </div>
         </div>
     </div>

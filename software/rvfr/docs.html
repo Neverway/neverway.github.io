@@ -1,253 +1,251 @@
-
-<!-- Home page -->
 <!DOCTYPE html>
 <html>
-<head>
-    <!-- Style -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/style.css">
-    <link rel="icon" type="image/x-icon" href="/main/images/logo_icon.png">
-    <title>Neverway</title>
-    <!-- Particle background -->
-    <div id="particles-js"></div>
-    <script type="text/javascript" src="/main/plugins/particles.js"></script>
-    <script type="text/javascript" src="/main/plugins/app.js"></script>
-    <style>
-        body {
-            margin: 0; /* Remove default margin */
-            font-family: 'FadeoutLemonMilk';
-            display: flex; /* Use flex display for layout */
-            font-size: 18px; /* Adjust the font size as needed */
-            color: grey;
-        }
-        .step {
-            background-color: #11ffff06;
-            margin: 0; /* Remove default margin */
-            font-family: 'FadeoutLemonMilk';
-            display: flex; /* Use flex display for layout */
-            font-size: 16px; /* Adjust the font size as needed */
-            font-weight: bold;
-            color: #444444;
-        }
-        .error {
-            background-color: #11ffff06;
-            margin: 0; /* Remove default margin */
-            font-family: 'FadeoutLemonMilk';
-            display: flex; /* Use flex display for layout */
-            font-size: 12px; /* Adjust the font size as needed */
-            color: #660f0f;
-        }
+    <head>
+        <!-- Style -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <link rel="icon" type="image/x-icon" href="/main/images/logo_icon.png">
+        <title>Neverway</title>
+        <!-- Particle background -->
+        <div id="particles-js"></div>
+        <script type="text/javascript" src="/main/plugins/particles.js"></script>
+        <script type="text/javascript" src="/main/plugins/app.js"></script>
+        <!-- Page specific CSS -->
+        <style>
+            body {
+                margin: 0; /* Remove default margin */
+                font-family: 'FadeoutLemonMilk';
+                display: flex;
+                font-size: 18px;
+                color: grey;
+            }
 
-        /* Style for the sidebar */
-        .sidebar {
-            background-color: #111111;
-            padding: 0px;
-            position: fixed; /* Fixed position to stay on the side */
-            left: 0; /* Ensure the sidebar is on the left */
-            top: 47px; /* Keep the sidebar at the top of the screen */
-            height: 100%; /* Occupy full height */
-            width: 15%;
-        }
+            .step {
+                background-color: #11ffff06;
+                margin: 0; /* Remove default margin */
+                font-family: 'FadeoutLemonMilk';
+                display: flex;
+                font-size: 16px;
+                font-weight: bold;
+                color: #444444;
+            }
 
-        /* Style for the main content */
-        .main-content {
-            width: 80%; /* Adjust the width as needed */
-            padding: 20px;
-            padding-left: 15%;
-            overflow: auto;
-        }
+            .error {
+                background-color: #11ffff06;
+                margin: 0; /* Remove default margin */
+                font-family: 'FadeoutLemonMilk';
+                display: flex;
+                font-size: 12px;
+                color: #660f0f;
+            }
 
-        /* Add some styling for the table of contents */
-        .toc {
-            padding: 20px;
-        }
+            .sidebar {
+                background-color: #111111;
+                padding: 0px;
+                position: fixed; /* Fixed position to stay on the side */
+                left: 0; /* Ensure the sidebar is on the left */
+                top: 47px; /* Keep the sidebar at the top of the screen */
+                height: 100%;
+                width: 15%;
+            }
 
-        /* Add some styling for the content section */
-        .content-section {
-            padding: 20px;
-        }
-        .outer-container2 {
-          display: flex;
-          justify-content: center;
-        }
-        /* CSS for the accordion-style menu */
-        ul.sub-menu {
-            display: none;
-            list-style-type: none;
-        }
+            .main-content {
+                width: 80%;
+                padding: 20px;
+                padding-left: 15%;
+                overflow: auto;
+            }
 
-        li:hover ul.sub-menu {
-            display: block;
-            width: 100px; /* Adjust the width as needed */
-            font-size: 12px; /* Adjust the font size as needed */
-            color: grey;
-            text-decoration: none; /* Remove underlines from links */
-        }
-        .banner-image {
-          width: 75%;
-          height: 75%;
-        }
-        .figure-image {
-          display: block;
-          width: 35%;
-          display: inline-block;
-          height: 35%;
-        }
+            .table-of-contents {
+                padding: 20px;
+            }
 
-        /* Container for contents list to fix alignment */
-        .list-alignment {
-            background-color: #111111;
-            padding: 0px;
-            position: fixed; /* Fixed position to stay on the side */
-            left: -1200px; /* Ensure the sidebar is on the left */
-            top: 47px; /* Keep the sidebar at the top of the screen */
-            height: 100%; /* Occupy full height */
-            width: 15%;
-        }
+            .content-section {
+                padding: 20px;
+            }
 
-        /* Sidebar styling */
-        .sidebar {
-            height: 100%;
-            width: 225px; /* Sidebar width */
-            position: fixed;
-            z-index: 1;
-            top: 47px; /* Keep the sidebar at the top of the screen */
-            left: 0;
-            background-color: #111; /* Sidebar color */
-            overflow-x: hidden;
-            padding-top: 20px;
-            list-style-type: none;
-        }
+            .outer-container2 {
+              display: flex;
+              justify-content: center;
+            }
 
-        /* Navigation links */
-        .sidebar a {
-            padding: 10px 15px;
-            text-decoration: none;
-            font-size: 15px;
-            text-align: left;
-            color: grey;
-            display: block;
-            width: 185px; /* Sidebar width */
-        }
+            ul.sub-menu {
+                display: none;
+                list-style-type: none;
+            }
 
-        .sidebar a:hover {
-            background-color: #575757; /* Hover color */
-        }
+            li:hover ul.sub-menu {
+                display: block;
+                width: 100px; /* Adjust the width as needed */
+                font-size: 12px; /* Adjust the font size as needed */
+                color: grey;
+                text-decoration: none; /* Remove underlines from links */
+            }
 
-        /* Dropdown container (hidden by default) */
-        .dropdown-content {
-            width: 100%;
-            background-color: #262626;
-            display: none;
-        }
+            .banner-image {
+              width: 75%;
+              height: 75%;
+            }
 
-        /* Dropdown buttons */
-        .dropbtn {
-            cursor: pointer;
-        }
-        .sidebar li {
-            list-style-type: none; /* This removes the bullet points from list items */
-        }
+            .figure-image {
+              display: block;
+              width: 35%;
+              display: inline-block;
+              height: 35%;
+            }
+
+            /* Container for contents list to fix alignment */
+            .list-alignment {
+                background-color: #111111;
+                padding: 0px;
+                position: fixed; /* Fixed position to stay on the side */
+                left: -1200px; /* Ensure the sidebar is on the left */
+                top: 47px; /* Keep the sidebar at the top of the screen */
+                height: 100%; /* Occupy full height */
+                width: 15%;
+            }
+
+            .sidebar {
+                height: 100%;
+                width: 225px; /* Sidebar width */
+                position: fixed;
+                z-index: 1;
+                top: 47px; /* Keep the sidebar at the top of the screen */
+                left: 0;
+                background-color: #111; /* Sidebar color */
+                overflow-x: hidden;
+                padding-top: 20px;
+                list-style-type: none;
+            }
+
+            /* Navigation links */
+            .sidebar a {
+                padding: 10px 15px;
+                text-decoration: none;
+                font-size: 15px;
+                text-align: left;
+                color: grey;
+                display: block;
+                width: 185px; /* Sidebar width */
+            }
+
+            .sidebar a:hover {
+                background-color: #575757; /* Hover color */
+            }
+
+            /* Dropdown container (hidden by default) */
+            .dropdown-content {
+                width: 100%;
+                background-color: #262626;
+                display: none;
+            }
+
+            /* Dropdown buttons */
+            .dropbtn {
+                cursor: pointer;
+            }
+
+            .sidebar li {
+                list-style-type: none; /* This removes the bullet points from list items */
+            }
+        </style>
+
+        <!-- Topbar -->
+        <topbar style="font-family: 'FadeoutLemonMilk'">
+            <li><a href="/index.html"><img src="/main/images/logo_banner.png"></a></li>
+            <li><a style="padding:12px;" href="/games.html">Games</a></li>
+            <li><a style="padding:12px;" href="/animations&comics.html">Animations & Comics</a></li>
+            <li><a class="active" style="padding:12px;" href="/software.html">Software</a></li>
+            <li><a style="padding:12px;" href="/about.html">About</a></li>
+        </topbar>
+    </head>
+
+    <body>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">[Getting Started]</a>
+                    <div class="dropdown-content">
+                        <a href="#tutorial1">Cloning the Project</a>
+                        <a href="#tutorial2">Best Practices</a>
+                        <a href="#tutorial3">Updating the Framework</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">[Modifying Example Widgets]</a>
+                    <div class="dropdown-content">
+                        <a href="#tutorial1">Title</a>
+                        <a href="#tutorial2">Pause</a>
+                        <a href="#tutorial3">Loading</a>
+                        <a href="#tutorial3">HUD</a>
+                        <a href="#tutorial3">Settings</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">[Adding Widgets]</a>
+                    <div class="dropdown-content">
+                        <a href="#tutorial1">Generic widgets</a>
+                        <a href="#tutorial2">Windows</a>
+                        <a href="#tutorial3">Prompts</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">[Gamemodes]</a>
+                    <div class="dropdown-content">
+                        <a href="#tutorial1">Adding Gamemodes</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">[World Settings]</a>
+                    <div class="dropdown-content">
+                        <a href="#tutorial1">Modifying Overrides</a>
+                        <a href="#tutorial1">Level Blueprints</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">[Characters & Controllers]</a>
+                    <div class="dropdown-content">
+                        <a href="#tutorial1">Adding Characters</a>
+                        <a href="#tutorial1">Modifying Character Data</a>
+                        <a href="#tutorial1">Adding Character Controllers</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">[Volumes]</a>
+                    <div class="dropdown-content">
+                        <a href="#tutorial1">Audio</a>
+                        <a href="#tutorial1">Blocking</a>
+                        <a href="#tutorial1">Blocking Camera</a>
+                        <a href="#tutorial1">Kill</a>
+                        <a href="#tutorial1">Layer Change</a>
+                        <a href="#tutorial1">Level Change</a>
+                        <a href="#tutorial1">Level Streaming</a>
+                        <a href="#tutorial1">Pain</a>
+                        <a href="#tutorial1">Physics</a>
+                        <a href="#tutorial1">Post Processing</a>
+                        <a href="#tutorial1">Trigger</a>
+                        <a href="#tutorial1">Warp</a>
+                        <a href="#tutorial1">Water</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
 
 
-
-    </style>
-    <!-- Topbar -->
-    <topbar style="font-family: 'FadeoutLemonMilk'">
-        <li><a href="/index.html"><img src="/main/images/logo_banner.png"></a></li>
-        <li><a style="padding:12px;" href="/games.html">Games</a></li>
-        <li><a style="padding:12px;" href="/animations&comics.html">Animations & Comics</a></li>
-        <li><a class="active" style="padding:12px;" href="/software.html">Software</a></li>
-        <li><a style="padding:12px;" href="/about.html">About</a></li>
-    </topbar>
-    <center><font size="12" color="#0f0f0f"><br></font></center>
-</head>
-<body>
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <ul class="nav">
-            <li><a href="#home">Home</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">[Getting Started]</a>
-                <div class="dropdown-content">
-                    <a href="#tutorial1">Cloning the Project</a>
-                    <a href="#tutorial2">Best Practices</a>
-                    <a href="#tutorial3">Updating the Framework</a>
+        <div class="outer-container2">
+            <!-- Right content section -->
+            <div class="main-content">
+                <div class="content-section" id="section1">
+                    <center><img id="section1.1"src="./logo.png" class="banner-image"></center>
+                    <center><font style="font-family: 'FadeoutLemonMilk'" size="6" color="grey">Modding Resource</font></center>
+                    <center><font style="font-family: 'FadeoutLemonMilk'" size="4" color="grey">By Liz M.</font></center>
+                    <center><font style="font-family: 'FadeoutLemonMilk'" size="2" color="grey">Last updated: May 05, 2024</font></center>
                 </div>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">[Modifying Example Widgets]</a>
-                <div class="dropdown-content">
-                    <a href="#tutorial1">Title</a>
-                    <a href="#tutorial2">Pause</a>
-                    <a href="#tutorial3">Loading</a>
-                    <a href="#tutorial3">HUD</a>
-                    <a href="#tutorial3">Settings</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">[Adding Widgets]</a>
-                <div class="dropdown-content">
-                    <a href="#tutorial1">Generic widgets</a>
-                    <a href="#tutorial2">Windows</a>
-                    <a href="#tutorial3">Prompts</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">[Gamemodes]</a>
-                <div class="dropdown-content">
-                    <a href="#tutorial1">Adding Gamemodes</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">[World Settings]</a>
-                <div class="dropdown-content">
-                    <a href="#tutorial1">Modifying Overrides</a>
-                    <a href="#tutorial1">Level Blueprints</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">[Characters & Controllers]</a>
-                <div class="dropdown-content">
-                    <a href="#tutorial1">Adding Characters</a>
-                    <a href="#tutorial1">Modifying Character Data</a>
-                    <a href="#tutorial1">Adding Character Controllers</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">[Volumes]</a>
-                <div class="dropdown-content">
-                    <a href="#tutorial1">Audio</a>
-                    <a href="#tutorial1">Blocking</a>
-                    <a href="#tutorial1">Blocking Camera</a>
-                    <a href="#tutorial1">Kill</a>
-                    <a href="#tutorial1">Layer Change</a>
-                    <a href="#tutorial1">Level Change</a>
-                    <a href="#tutorial1">Level Streaming</a>
-                    <a href="#tutorial1">Pain</a>
-                    <a href="#tutorial1">Physics</a>
-                    <a href="#tutorial1">Post Processing</a>
-                    <a href="#tutorial1">Trigger</a>
-                    <a href="#tutorial1">Warp</a>
-                    <a href="#tutorial1">Water</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-
-    <div class="outer-container2">
-        <!-- Right content section -->
-        <div class="main-content">
-            <div class="content-section" id="section1">
-                <center><img id="section1.1"src="./logo.png" class="banner-image"></center>
-                <center><font style="font-family: 'FadeoutLemonMilk'" size="6" color="grey">Modding Resource</font></center>
-                <center><font style="font-family: 'FadeoutLemonMilk'" size="4" color="grey">By Liz M.</font></center>
-                <center><font style="font-family: 'FadeoutLemonMilk'" size="2" color="grey">Last updated: May 05, 2024</font></center>
             </div>
         </div>
-    </div>
-</body>
+    </body>
 
 </html>
 

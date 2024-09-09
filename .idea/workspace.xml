@@ -26,36 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/Build/DA-CTRG-Beta2.0.0-WebGL.loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/StreamingAssets/UnityServicesProjectConfiguration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/MemoryProfiler.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/fullscreen-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/progress-bar-empty-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/progress-bar-empty-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/progress-bar-full-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/progress-bar-full-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/unity-logo-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/unity-logo-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/webgl-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/webmemd-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/demo/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/docs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/featured_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/featured_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/featured_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/library_capsule.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/library_hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/corgeo/demo/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/software/ctgr/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/demo/demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

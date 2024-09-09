@@ -26,9 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
+      <change afterPath="$PROJECT_DIR$/files/about/errynei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/about/midgeon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/about/soulex.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/corgeo/demo/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/games/corgeo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files/about" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/games/da/main.html" />
@@ -82,11 +84,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files/about" />
       <recent name="$PROJECT_DIR$/games/corgeo" />
       <recent name="$PROJECT_DIR$/games" />
       <recent name="$PROJECT_DIR$/software" />
       <recent name="$PROJECT_DIR$/software/ctgr/demo" />
-      <recent name="$PROJECT_DIR$/software/ctgr" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/software/ctgr/demo" />

@@ -26,34 +26,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
-      <change afterPath="$PROJECT_DIR$/files/home/featured_1.png.kra" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/corgeo/library_hero.jpg.kra" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/images/logo_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/images/logo_full_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/images/logo_half.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/images/logo_half_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/images/logo_icon_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/images/old_logo_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/images/old_logo_banner_long.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/images/old_logo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/about/andretter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/about/bigmoth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/about/leech.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/about/lucky1191.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/about/pandan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/about/rosalind.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animations&amp;comics.html" beforeDir="false" afterPath="$PROJECT_DIR$/animations&amp;comics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/home/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/files/home/featured_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/games/corgeo/library_hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/corgeo/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/da/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/four/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/logo_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/logo_banner_long.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/logo_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/ctgr/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/rvfr/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/rvfr/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/template/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/template/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/about/dan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/about/kevin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/about/kronos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/about/weston.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,16 +78,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/images" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/games/da/main.html" />
-    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/files/4_software" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -120,6 +97,13 @@
       <recent name="$PROJECT_DIR$/games" />
       <recent name="$PROJECT_DIR$/files/home" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">

@@ -27,84 +27,33 @@
 <html>
 <body>
   <div class="outer-container">
+
     <div class="content-container">
+      <!-- Logo Header -->
       <center><font size="12" color=#0f0f0f><br></font></center>
       <div class="image-container">
-        <img src="files/home/background.png" class="background-image" style="height:100%;">
+        <img src="home/background.png" class="background-image" style="height:100%;">
         <img src="/main/images/logo_full_bg.png" class="overlay-image" style="height:75%;">
       </div>
 
-      <center><font size="4" color=#0f0f0f><br></font></center>
-      <center><font style="font-family: 'FadeoutLemonMilk'" size="12" color="grey">Featured</font></center>
+      <!-- Featured -->
       <center><font size="4" color=#0f0f0f><br></font></center>
 
-      <!-- Featured video -->
-      <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <center><img width="800" height="auto" src="/files/home/featured_1.png"></center>
-        <center><font size="6" color=#0f0f0f><br></font></center>
-        <div class="text">Corridor Geodesic alpha demo now available</div>
-      </div>
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <center><img width="800" height="auto" src="/files/home/featured_2.gif"></center>
-        <center><font size="6" color=#0f0f0f><br></font></center>
-        <div class="text">Divine Annihilation new paralaxing</div>
-      </div>
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <center><img width="800" height="auto" src="/files/home/featured_3.png"></center>
-        <center><font size="6" color=#0f0f0f><br></font></center>
-        <div class="text">Divine Annihilation new real-time 2D lighting</div>
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
+      <div id="slideshow-container"></div>
+      <div class="slideshow-thumbnails" id="slideshow-thumbnails"></div>
+      <a href="javascript:void(0)" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a href="javascript:void(0)" class="next" onclick="plusSlides(1)">&#10095;</a>
+      <center><font size="12" color=#0f0f0f><br></font></center>
 
+      <!-- News -->
       <font style="font-family: 'FadeoutLemonMilk'" size="12" color="grey">News</font>
-
-      <p class="news">
-        <b><font size="5" color="grey" style="text-decoration: underline;">Corridor Geodesic Alpha Testing Announcement</font></b>
-        <font size="2" color="grey" style="text-decoration: underline;">[February 02, 2025]</font></p>
-      <p class="news"><font size="4" color="grey"><i>Test out early development builds for our new mind-bending puzzle game Corridor Geodesic! This is our first game project using the Unity version of the Riven Framework. If all goes according to plan, this test will confirm that the framework is ready for some heavy-duty projects!</i></font></p>
-      <p class="news"><font size="4" color="white"></font></p>
-      <p class="news"><font size="4" color="grey"><i>Best regards,</i></font></p>
-      <p class="news"><font size="4" color="#1997EA"><i>Liz Miyuna</i></font></p>
-      <center><font size="6" color=#0f0f0f><br></font></center>
+      <div id="news-container"></div>
 
     </div>
+
   </div>
 </body>
 </html>
 
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
+<script src="main/plugins/slideshow.js" data-json="home/slideshow.json"></script>
+<script src="main/plugins/news.js" data-json="home/news.json"></script>

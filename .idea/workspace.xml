@@ -26,18 +26,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
-      <change afterPath="$PROJECT_DIR$/files/about/andretter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/bigmoth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/leech.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/lucky1191.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/pandan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/about/rosalind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/games/corgeo/f00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/games/corgeo/f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/games/corgeo/f02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/games/corgeo/f03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/games/corgeo/f04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/games/corgeo/slideshow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/news.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/slideshow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/plugins/news.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/plugins/slideshow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/dan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/kevin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/kronos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/weston.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/home/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/home/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/home/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/home/featured_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/home/featured_1.png.kra" beforeDir="false" afterPath="$PROJECT_DIR$/home/featured_1.png.kra" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/home/featured_2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/home/featured_2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/home/featured_2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/home/featured_2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/home/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/home/featured_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/home/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/home/featured_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/home/featured_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/home/featured_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/featured_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/featured_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/featured_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/library_capsule.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/games/corgeo/library_hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/library_hero.jpg.kra" beforeDir="false" afterPath="$PROJECT_DIR$/games/corgeo/library_hero.jpg.kra" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/games/corgeo/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/corgeo/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/corgeo/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,22 +98,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/games/corgeo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/games/corgeo" />
+      <recent name="$PROJECT_DIR$/home" />
       <recent name="$PROJECT_DIR$/main/images" />
       <recent name="$PROJECT_DIR$/files/about" />
-      <recent name="$PROJECT_DIR$/games/corgeo" />
       <recent name="$PROJECT_DIR$/games" />
-      <recent name="$PROJECT_DIR$/software" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/software/ctgr/demo" />
+      <recent name="$PROJECT_DIR$/main/plugins" />
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/home" />
+      <recent name="$PROJECT_DIR$/system" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/games/da" />
-      <recent name="$PROJECT_DIR$/games" />
-      <recent name="$PROJECT_DIR$/files/home" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -474,6 +492,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">

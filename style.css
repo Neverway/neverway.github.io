@@ -1,3 +1,102 @@
+.news-post {
+  margin-bottom: 2em;
+  color: grey;
+}
+.news-post .title {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+.news-post .date {
+  font-size: 0.9em;
+  color: #888;
+}
+.news-post .content {
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 1em 0;
+}
+.news-post .author {
+  font-size: 1.1em;
+  font-style: italic;
+}
+.news-post .author-name {
+  color: #1997EA;
+  font-style: italic;
+}
+
+
+.slideshow-thumbnails {
+  display: flex;
+  overflow-x: auto;
+  padding: 1% 20%;
+  justify-content: flex-start;
+  gap: 10px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.slideshow-thumbnails::-webkit-scrollbar {
+  height: 8px;
+}
+
+.slideshow-thumbnails::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+.thumbnail-img {
+  height: 60px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s, transform 0.3s;
+  flex-shrink: 0;
+}
+
+.thumbnail-img:hover,
+.active-thumbnail {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.mySlides {
+  display: none;
+  position: relative;
+}
+
+.mySlides .numbertext {
+  position: absolute;
+  top: 8px;
+  left: 13%;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+.mySlides img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.mySlides .text {
+  position: absolute;
+  bottom: 0px;
+  left: 12.5%;
+  width: 75%;
+  text-align: center;
+  color: #aaaaaa;
+  font-size: 16px;
+  padding: 8px 8px;
+  background-color: rgba(0,0,0,0.75);
+  box-sizing: border-box;
+}
+
+
+
+
+
 /*=== Header ===*/
     /* Header - Style navigation bar*/
     topbar {

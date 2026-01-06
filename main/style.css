@@ -230,6 +230,7 @@ img {vertical-align: middle;}
   width: 100%;
   margin: 0 auto;
   height: 200px;
+  background-color: rgba(0, 0, 0, 1);
 }
 .background-image {
   display: block;
@@ -243,6 +244,7 @@ img {vertical-align: middle;}
   transform: translate(-50%, -50%);
   z-index: 1;
   image-rendering: pixelated;
+  color: #FFFFFF;
 }
 
 /*Containers for center content stuffs*/
@@ -263,6 +265,6 @@ img {vertical-align: middle;}
   background-color: rgba(6, 6, 6, 0.95);
   position: absolute;
   top: 0;
-  left: 15%;
-  right: 15%;
+  left: 20%;
+  right: 20%;
 }

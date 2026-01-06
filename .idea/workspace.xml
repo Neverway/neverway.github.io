@@ -26,298 +26,213 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-age-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-age-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-age-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-age-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-device-controller.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-device-keyboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-device-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-device-vr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-players-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-players-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-players-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-players-many.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/images/cover-sidebar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/plugins/art-carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/plugins/game-carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/plugins/software-carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/profiles/yyneko.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/MidWen/cover-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/MidWen/cover-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/MidWen/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/art.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/AuHo/cover-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/AuHo/cover-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/AuHo/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/CorGeo/cover-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/CorGeo/cover-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/CorGeo/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/DA/cover-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/DA/cover-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/DA/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/FeSt/cover-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/FeSt/cover-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/FeSt/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/FoUR/cover-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/FoUR/cover-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/FoUR/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/Build/webdemo.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/Build/webdemo.framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/Build/webdemo.loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/Build/webdemo.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/MemoryProfiler.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/fullscreen-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/progress-bar-empty-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/progress-bar-empty-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/progress-bar-full-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/progress-bar-full-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/unity-logo-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/unity-logo-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/webgl-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/demo/TemplateData/webmemd-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/docs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/f00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/f01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/f02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/f03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/f04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/library_hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/library_hero.jpg.kra" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/project.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/_template/slideshow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/games.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/featured_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/FeQs/cover-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/FeQs/cover-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/FeQs/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/RALI/cover-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/RALI/cover-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/RALI/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/RvFr/cover-art.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/RvFr/cover-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/RvFr/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/software/software.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/.template/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/.template/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/.template/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/.template/cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/.template/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/.template/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/.template/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/.template/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/.template/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/.template/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/.template/teaser1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/.template/teaser1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/.template/teaser2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/.template/teaser2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/.template/teaser3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/.template/teaser3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id002-da/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id002-da/cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id002-da/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id002-da/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id002-da/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/teaser0.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id002-da/teaser0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/teaser1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id002-da/teaser1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/teaser2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id002-da/teaser2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/banner.old.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/banner.old.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/slot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/teaser1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/teaser1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/teaser2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/teaser2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/teaser3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/2_games/id009-ods/teaser3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/4_software/id000-fq/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/4_software/id000-fq/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/4_software/id000-fq/slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/4_software/id000-fq/slot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/4_software/id000-fq/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/4_software/id000-fq/software.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/4_software/id000-nupdk/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/4_software/id000-nupdk/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/4_software/id000-nupdk/slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/4_software/id000-nupdk/slot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/4_software/id000-nupdk/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/4_software/id000-nupdk/software.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/Build/webdemo.data" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/Build/webdemo.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/Build/webdemo.framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/Build/webdemo.framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/Build/webdemo.loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/Build/webdemo.loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/Build/webdemo.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/Build/webdemo.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/MemoryProfiler.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/MemoryProfiler.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/fullscreen-button.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/fullscreen-button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/progress-bar-empty-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/progress-bar-empty-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/progress-bar-empty-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/progress-bar-empty-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/progress-bar-full-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/progress-bar-full-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/progress-bar-full-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/progress-bar-full-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/unity-logo-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/unity-logo-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/unity-logo-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/unity-logo-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/webgl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/webgl-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/webmemd-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/TemplateData/webmemd-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/docs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/f00.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/f00.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/f01.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/f01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/f02.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/f02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/f03.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/f03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/f04.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/f04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/library_hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/library_hero.jpg.kra" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/library_hero.jpg.kra" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/corgeo/slideshow.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/corgeo/slideshow.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/StreamingAssets/UnityServicesProjectConfiguration.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/StreamingAssets/UnityServicesProjectConfiguration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/MemoryProfiler.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/MemoryProfiler.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/fullscreen-button.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/fullscreen-button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/progress-bar-empty-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/progress-bar-empty-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/progress-bar-empty-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/progress-bar-empty-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/progress-bar-full-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/progress-bar-full-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/progress-bar-full-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/progress-bar-full-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/unity-logo-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/unity-logo-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/unity-logo-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/unity-logo-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/webgl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/webgl-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/webmemd-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/TemplateData/webmemd-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/docs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/featured_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/featured_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/featured_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/library_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/library_hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/ctgr/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/ctgr/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/da/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/da/docs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/da/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/da/featured_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/da/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/da/featured_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/da/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/da/featured_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/da/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/da/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/da/library_capsule.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/da/library_capsule.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/da/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/da/library_hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/da/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/da/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/da/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/da/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/featured_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/featured_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/featured_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/docs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/docs_fig0.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/docs_fig0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/docs_fig1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/docs_fig1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/docs_fig2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/docs_fig2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/docs_fig3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/docs_fig3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/featured_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/featured_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/featured_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/library_hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/four/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/four/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/logo_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/logo_banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/logo_banner_outlined.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/logo_banner_outlined.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/logo_topbar_outlined.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/logo_topbar_outlined.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/PatchDesign.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/PatchDesign.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/docs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/featured_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/featured_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/featured_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/library_capsule.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/library_capsule.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/library_hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/library_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/library_hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/midwen/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/midwen/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/project/blank_slot.old.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/project/blank_slot.old.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/project/blank_slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/project/blank_slot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/project/tag_adventure.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/project/tag_adventure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/project/tag_platformer.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/project/tag_platformer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/project/tag_puzzle.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/project/tag_puzzle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/project/tag_rpg.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/project/tag_rpg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/project/tag_singleplayer.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/project/tag_singleplayer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/project/tag_splitscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/project/tag_splitscreen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/project/tag_story.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/project/tag_story.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/rvfr/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/rvfr/docs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/rvfr/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/rvfr/featured_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/rvfr/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/rvfr/featured_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/rvfr/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/rvfr/featured_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/rvfr/library_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/rvfr/library_hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/rvfr/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/rvfr/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/files/Old/rvfr/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/files/Old/rvfr/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/fonts/lemonMilk.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts/lemonMilk.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/fonts/lemonMilk1.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts/lemonMilk1.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/fonts/lemonMilk2.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts/lemonMilk2.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/fonts/lemonMilk3.otf" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts/lemonMilk3.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-age-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-age-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-age-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-age-16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-age-18.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-age-18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-age-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-age-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-device-controller.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-device-controller.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-device-keyboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-device-keyboard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-device-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-device-mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-device-vr.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-device-vr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-players-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-players-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-players-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-players-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-players-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-players-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-players-many.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-players-many.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/cover-sidebar.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/cover-sidebar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/docs.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/docs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/download-demo.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/download-demo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/download-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/download-mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/download-pc-deb.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/download-pc-deb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/download-pc-win.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/download-pc-win.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/download-pc.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/download-pc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/download-steam.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/download-steam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/download.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/logo_full.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/logo_full.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/logo_full_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/logo_full_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/logo_half.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/logo_half.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/logo_half_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/logo_half_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/logo_icon_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/logo_icon_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/old_logo_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/old_logo_banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/old_logo_banner_long.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/old_logo_banner_long.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/images/old_logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/images/old_logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/plugins/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/plugins/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/plugins/art-carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/plugins/art-carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/plugins/game-carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/plugins/game-carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/plugins/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/plugins/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/plugins/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/plugins/particles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/plugins/slideshow.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/plugins/slideshow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/plugins/software-carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/plugins/software-carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/tags/adventure.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/tags/adventure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/tags/platformer.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/tags/platformer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/tags/puzzle.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/tags/puzzle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/tags/rpg.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/tags/rpg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/tags/singleplayer.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/tags/singleplayer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/tags/splitscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/tags/splitscreen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_main/tags/story.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/tags/story.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animations&amp;comics.html" beforeDir="false" afterPath="$PROJECT_DIR$/animations&amp;comics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/PatchDesign.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/PatchDesign.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/docs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/da/featured_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/da/featured_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/da/featured_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/da/header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/library_capsule.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/da/library_capsule.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/da/library_hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/library_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/library_hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/midwen/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/.template/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/.template/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/.template/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/.template/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/.template/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/.template/game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/.template/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/.template/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/.template/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/.template/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/.template/teaser1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/.template/teaser1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/.template/teaser2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/.template/teaser2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/.template/teaser3.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/.template/teaser3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id002-da/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id002-da/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id002-da/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id002-da/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id002-da/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id002-da/teaser0.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/teaser0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id002-da/teaser1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/teaser1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id002-da/teaser2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id002-da/teaser2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/banner.old.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/banner.old.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/slot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/teaser1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/teaser1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/teaser2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/teaser2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/2_games/id009-ods/teaser3.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/2_games/id009-ods/teaser3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/4_software/id000-fq/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/4_software/id000-fq/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/4_software/id000-fq/slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/4_software/id000-fq/slot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/4_software/id000-fq/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/4_software/id000-fq/software.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/4_software/id000-nupdk/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/4_software/id000-nupdk/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/4_software/id000-nupdk/slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/4_software/id000-nupdk/slot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/4_software/id000-nupdk/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/4_software/id000-nupdk/software.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/featured_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/featured_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/featured_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/logo_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/logo_banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/logo_banner_outlined.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/logo_banner_outlined.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/logo_topbar_outlined.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/logo_topbar_outlined.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/project/blank_slot.old.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/project/blank_slot.old.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/project/blank_slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/project/blank_slot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/project/tag_adventure.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/project/tag_adventure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/project/tag_platformer.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/project/tag_platformer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/project/tag_puzzle.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/project/tag_puzzle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/project/tag_rpg.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/project/tag_rpg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/project/tag_singleplayer.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/project/tag_singleplayer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/project/tag_splitscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/project/tag_splitscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Old/project/tag_story.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/project/tag_story.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/WrastorIntimidate.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/WrastorIntimidate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/alex.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/alex.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/andretter.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/andretter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/base.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/base.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/bigmoth.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/bigmoth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/connorses.gif" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/connorses.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/discord.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/discord.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/dom.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/dom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/email.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/email.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/errynei.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/errynei.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/kajani.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/kajani.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/leech.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/leech.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/lina.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/lee.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/liz.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/liz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/lucky1191.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/lucky1191.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/members.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/members.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/myrieon.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/myrieon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/pandan.gif" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/pandan.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/patreon.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/patreon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/reddit.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/reddit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/rosalind.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/rosalind.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/about/soulex.png" beforeDir="false" afterPath="$PROJECT_DIR$/about/profiles/soulex.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/MidWen/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/art/MidWen/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/Build/webdemo.data" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/Build/webdemo.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/Build/webdemo.framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/Build/webdemo.framework.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/Build/webdemo.loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/Build/webdemo.loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/Build/webdemo.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/Build/webdemo.wasm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/MemoryProfiler.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/MemoryProfiler.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/fullscreen-button.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/fullscreen-button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/progress-bar-empty-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/progress-bar-empty-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/progress-bar-empty-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/progress-bar-empty-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/progress-bar-full-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/progress-bar-full-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/progress-bar-full-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/progress-bar-full-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/unity-logo-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/unity-logo-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/unity-logo-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/unity-logo-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/webgl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/webgl-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/TemplateData/webmemd-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/TemplateData/webmemd-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/demo/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/docs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/f00.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/f00.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/f01.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/f01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/f02.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/f02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/f03.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/f03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/f04.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/f04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/library_hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/library_hero.jpg.kra" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/library_hero.jpg.kra" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/corgeo/slideshow.json" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/corgeo/slideshow.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/da/docs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/featured_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/featured_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/featured_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/library_capsule.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/library_capsule.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/library_hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/da/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/da/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/da/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/docs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/docs_fig0.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/docs_fig0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/docs_fig1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/docs_fig1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/docs_fig2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/docs_fig2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/docs_fig3.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/docs_fig3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/featured_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/featured_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/midwen/featured_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/library_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/library_hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/four/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/four/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/home/news.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/slideshow.json" beforeDir="false" afterPath="$PROJECT_DIR$/home/slideshow.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/AuHo/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/AuHo/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/CorGeo/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/CorGeo/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/DA/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/DA/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/FeSt/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/FeSt/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/FoUR/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/FoUR/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/_template/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/_template/demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/_template/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/_template/docs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/_template/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/_template/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/fonts/lemonMilk.otf" beforeDir="false" afterPath="$PROJECT_DIR$/_main/fonts/lemonMilk.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/fonts/lemonMilk1.otf" beforeDir="false" afterPath="$PROJECT_DIR$/_main/fonts/lemonMilk1.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/fonts/lemonMilk2.otf" beforeDir="false" afterPath="$PROJECT_DIR$/_main/fonts/lemonMilk2.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/fonts/lemonMilk3.otf" beforeDir="false" afterPath="$PROJECT_DIR$/_main/fonts/lemonMilk3.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/docs.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/docs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/download-demo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/download-demo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/download-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/download-mobile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/download-pc-deb.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/download-pc-deb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/download-pc-win.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/download-pc-win.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/download-pc.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/download-pc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/download-steam.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/download-steam.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/download.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/download.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/logo_full.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/logo_full.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/logo_full_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/logo_full_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/logo_half.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/logo_half.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/logo_half_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/logo_half_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/logo_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/logo_icon_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/logo_icon_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/old_logo_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/old_logo_banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/old_logo_banner_long.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/old_logo_banner_long.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/images/old_logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/images/old_logo_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/plugins/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/_main/plugins/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/plugins/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/_main/plugins/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/plugins/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/_main/plugins/particles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/plugins/slideshow.js" beforeDir="false" afterPath="$PROJECT_DIR$/_main/plugins/slideshow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tags/adventure.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/tags/adventure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tags/platformer.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/tags/platformer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tags/puzzle.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/tags/puzzle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tags/rpg.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/tags/rpg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tags/singleplayer.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/tags/singleplayer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tags/splitscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/tags/splitscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tags/story.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/tags/story.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.framework.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/Build/DA-CTRG-Beta2.0.0-WebGL.wasm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/StreamingAssets/UnityServicesProjectConfiguration.json" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/StreamingAssets/UnityServicesProjectConfiguration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/MemoryProfiler.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/MemoryProfiler.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/fullscreen-button.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/fullscreen-button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/progress-bar-empty-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/progress-bar-empty-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/progress-bar-empty-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/progress-bar-empty-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/progress-bar-full-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/progress-bar-full-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/progress-bar-full-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/progress-bar-full-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/unity-logo-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/unity-logo-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/unity-logo-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/unity-logo-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/webgl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/webgl-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/TemplateData/webmemd-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/TemplateData/webmemd-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/_template/demo/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/docs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/featured_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/featured_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/featured_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/library_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/library_hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/ctgr/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/rvfr/docs.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/rvfr/docs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/rvfr/featured_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/rvfr/featured_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/rvfr/featured_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/rvfr/featured_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/rvfr/featured_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/rvfr/featured_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/rvfr/library_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/rvfr/library_hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/rvfr/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/rvfr/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/rvfr/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/rvfr/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/template/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/_main/files/Old/ctgr/demo/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/template/docs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/template/featured_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/template/featured_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/template/featured_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/template/library_hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/template/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/template/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software/FeQs/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/FeQs/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software/RALI/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/RALI/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/software/RvFr/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/RvFr/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,15 +278,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/lizband/KBMServer/Repositories/neverway.github.io/art",
-    "settings.editor.selected.configurable": "Console"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lizband/KBMServer/Repositories/neverway.github.io/art&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/art" />

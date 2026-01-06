@@ -35,22 +35,37 @@
       </div>
       <center><font size="12" color=#0f0f0f><br></font></center>
 
-      <!-- Featured -->
-      <center><font size="4" color=#0f0f0f><br></font></center>
-
-      <div id="slideshow-container"></div>
-      <div class="slideshow-thumbnails" id="slideshow-thumbnails"></div>
-      <a href="javascript:void(0)" class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a href="javascript:void(0)" class="next" onclick="plusSlides(1)">&#10095;</a>
-      <center><font size="12" color=#0f0f0f><br></font></center>
+            <!-- Featured video -->
+      <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <center><img width="800" height="auto" src="featured_1.png"></center>
+        <center><font size="6" color=#0f0f0f><br></font></center>
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <center><img width="800" height="auto" src="featured_2.png"></center>
+        <center><font size="6" color=#0f0f0f><br></font></center>
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <center><img width="800" height="auto" src="featured_3.png"></center>
+        <center><font size="6" color=#0f0f0f><br></font></center>
+        <div class="text"></div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
 
       <p class="news">
         <font size="4" color="white"></font>
-        <font size="4" color="grey">Tags: Puzzle, Action, First Person Shooter</font>
+        <font size="4" color="grey">Tags: Action-Adventure, Exploration, RPG, Sci-Fi Fantasy, Branching Paths</font>
       </p>
       <p class="news">
         <font size="4" color="white"></font>
-        <font size="4" color="grey">Alpha Testing</font>
+        <font size="4" color="grey">In Dev</font>
       </p><!--
         <a href="https://store.steampowered.com/" class="download-demo" style="background-color: #00276d;vertical-align:middle;position:relative;">
           <img src="/main/images/download-steam.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
@@ -72,22 +87,7 @@
           Demo
         </a>-->
         <font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="https://github.com/Neverway/RVFR-CorridorGeodesic-Unity/releases/download/Testing/CorGeoDemo_Win64.zip" class="download-demo" style="background-color: #0078d7;vertical-align:middle;position:relative;">
-          <img src="/main/images/download-pc-win.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Windows DEMO
-        </a>
-        <font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="https://github.com/Neverway/RVFR-CorridorGeodesic-Unity/releases/download/Testing/CorGeoDemo_Deb.tar.gz" class="download-demo" style="background-color: #b80f4a;vertical-align:middle;position:relative;">
-          <img src="/main/images/download-pc-deb.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Linux DEMO
-        </a>
-        <!--<font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="./demo/demo.html" class="download-demo" style="background-color: #6d0009;vertical-align:middle;position:relative;">
-          <img src="/main/images/download-demo.png"style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Web Demo
-        </a>-->
-        <font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="https://github.com/Neverway/RVFR-CorridorGeodesic-Unity" class="download-demo" style="background-color: #6d2b00;vertical-align:middle;position:relative;">
+        <a href="https://github.com/Neverway/RVFR-Unity-DivineAnnihilation" class="download-demo" style="background-color: #6d2b00;vertical-align:middle;position:relative;">
           <img src="/main/images/download.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
           Source Code
         </a>
@@ -96,15 +96,46 @@
 
 
       <b><font size="5" color="grey" style="text-decoration: underline;">Description</font></b>
-      <p class="news"><font size="4" color="grey"><i>Corridor Geodesic is a steampunk style puzzle game that offers a unique experience catering to newcomers and puzzle veterans alike. This game is designed to give players a new way to approach how they interact with, and manipulate, the environment around them.</i></font></p>
-<p class="news"><font size="4" color="grey"><i>
-Descend through the floors of an underground research facility, built on the bones of an abandoned copper mine, as you try to reach and destroy the central core powering the complex.</i></font></p>
+      <p class="news"><font size="4" color="grey"><i>Divine Annihilation is a sci-fi fantasy RPG, with a blend of hack & slash and turn-based combat, and a branching story with multiple endings.</i></font></p>
       <p class="news"><font size="4" color="grey"><i>
-        </i></font></p>
+        Long ago, an adventurer set out to explore a land of myth, from the stories told to us for generations.
+        The story tells of the two great factions of light and dark, and how their strife shattered the flow of time.
+        Time was a fictitious concept once used to describe how the world would change as this force marched onward.
+        The sun and moon would sail across the sky. Clouds would mutate through space into different shapes and colors.
+        The land fluctuated from cold and white to warm and bright.
+        The waves of the ocean would crash to the shores instead of the large calm hills with the slow passage of water across them that we are all accustomed to.
+        These were the stories that inspired Fox to strive for a life of adventure.</i></font></p>
     </div>
   </div>
 </body>
 </html>
 
 
-<script src="/main/plugins/slideshow.js" data-json="/games/corgeo/slideshow.json"></script>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>

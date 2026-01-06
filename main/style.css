@@ -18,11 +18,11 @@
 /*-----------------------*/
 @font-face {
     font-family: "FadeoutLemonMilk";
-    src: url("/_main/fonts/lemonMilk3.otf") format("opentype");
+    src: url("/main/fonts/lemonMilk3.otf") format("opentype");
 }
 @font-face {
     font-family: "FadeoutLemonMilkBI";
-    src: url("/_main/fonts/lemonMilk1.otf") format("opentype");
+    src: url("/main/fonts/lemonMilk1.otf") format("opentype");
 }
 
 

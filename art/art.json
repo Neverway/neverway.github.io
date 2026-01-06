@@ -1,0 +1,18 @@
+[
+  {
+    "project-title": "Midnight Wendigo",
+    "project-id": "MidWen",
+    "project-tags": "Mystery, Detective, Supernatural",
+    "project-status": "Pending",
+    "project-description": "",
+    "devices-supported": {
+      "keyboard": false,
+      "controller": false,
+      "mobile": false,
+      "vr": false
+    },
+    "players-supported": 1,
+    "age-range": 18,
+    "hidden": false
+  }
+]

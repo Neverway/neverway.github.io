@@ -1,0 +1,98 @@
+[
+  {
+    "project-title": "Autumn Howl",
+    "project-id": "AuHo",
+    "project-tags": "Top-down 2D, Rougelike, Rpg",
+    "project-status": "Released",
+    "project-description": "<h4>About</h4>\n<p>In a forest that's stuck in an eternal Autumn, an Evil Beast lurks just beyond the barrier. Legend tells of a mythical blade that can defeat it, however... it's just a bit bigger than you were expecting.<br><br>Play as Autumn, a silent cat with with little arms but a lot of soul, as you gather items and travel into an ever-changing forest. Trying to avoid going insane from the darkness and survive just long enough to defeat The Beast!</p>\n<h4>General Controls</h4>\n<pre>\nThe controls are intended to reflect that of NES/SNES era emulators.\n[Z] Interact / A Button\n[X] Action / B Button\n[C] Menu / Select\n[Arrow Keys] Movement\nPRESS C DURING A BATTLE TO SKIP YOUR STEP! (SRY!)\n</pre>\n<h4>Overworld Info</h4>\n<pre>\n[Z] Interact\n[X] Sprint / Skip Text / Back\n[C] Open/Close Inventory\n[Arrow Keys] Move / Navigate Menus\n</pre>\n<p>Go to the inn and talk to the Innkeeper to save the game.&nbsp;Go to the forest to get loot. Once your lantern runs out, you'll want to make your way back to the town and sleep to progress to the next cycle. (Don't forget to visit the shops though!)</p>\n<h4>Created By</h4>\n<p>Lizband, Connorses, Errynei, & Alex The Foxcoon</p>",
+    "devices-supported": {
+      "keyboard": true,
+      "controller": true,
+      "mobile": true,
+      "vr": false
+    },
+    "players-supported": 4,
+    "age-range": 16,
+    "hidden": false
+  },
+  {
+    "project-title": "Corridor Geodesic",
+    "project-id": "CorGeo",
+    "project-tags": "First-person, Puzzle, Action-Adventure",
+    "project-status": "In-Development",
+    "project-description": "",
+    "devices-supported": {
+      "keyboard": true,
+      "controller": true,
+      "mobile": false,
+      "vr": true
+    },
+    "players-supported": 1,
+    "age-range": 16,
+    "hidden": false
+  },
+  {
+    "project-title": "Divine Annihilation",
+    "project-id": "DA",
+    "project-tags": "",
+    "project-status": "Pending",
+    "project-description": "",
+    "devices-supported": {
+      "keyboard": true,
+      "controller": true,
+      "mobile": true,
+      "vr": false
+    },
+    "players-supported": 1,
+    "age-range": 16,
+    "hidden": false
+  },
+  {
+    "project-title": "Vector Howl",
+    "project-id": "VeHo",
+    "project-tags": "",
+    "project-status": "Pending",
+    "project-description": "",
+    "devices-supported": {
+      "keyboard": true,
+      "controller": false,
+      "mobile": false,
+      "vr": true
+    },
+    "players-supported": 16,
+    "age-range": 16,
+    "hidden": true
+  },
+  {
+    "project-title": "Fadeout Underground: Report",
+    "project-id": "FoUR",
+    "project-tags": "",
+    "project-status": "Pending",
+    "project-description": "",
+    "devices-supported": {
+      "keyboard": true,
+      "controller": true,
+      "mobile": false,
+      "vr": false
+    },
+    "players-supported": 16,
+    "age-range": 16,
+    "hidden": false
+  },
+  {
+    "project-title": "Feral Strife",
+    "project-id": "FeSt",
+    "project-tags": "",
+    "project-status": "Pending",
+    "project-description": "",
+    "devices-supported": {
+      "keyboard": true,
+      "controller": true,
+      "mobile": false,
+      "vr": false
+    },
+    "players-supported": 16,
+    "age-range": 16,
+    "hidden": true
+  }
+]

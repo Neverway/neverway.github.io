@@ -1,0 +1,34 @@
+{
+  "name": "Corridor Geodesic",
+  "bannerImage": "library_hero.jpg",
+  "logoImage": "logo.png",
+
+  "tags": ["Puzzle", "Action", "First Person Shooter"],
+  "status": "Alpha Testing",
+
+  "downloads": [
+    {
+      "label": "Windows DEMO",
+      "url": "https://github.com/Neverway/RVFR-CorridorGeodesic-Unity/releases/download/Testing/CorGeoDemo_Win64.zip",
+      "icon": "/main/images/download-pc-win.png",
+      "color": "#0078d7"
+    },
+    {
+      "label": "Linux DEMO",
+      "url": "https://github.com/Neverway/RVFR-CorridorGeodesic-Unity/releases/download/Testing/CorGeoDemo_Deb.tar.gz",
+      "icon": "/main/images/download-pc-deb.png",
+      "color": "#b80f4a"
+    },
+    {
+      "label": "Source Code",
+      "url": "https://github.com/Neverway/RVFR-CorridorGeodesic-Unity",
+      "icon": "/main/images/download.png",
+      "color": "#6d2b00"
+    }
+  ],
+
+  "description": [
+    "Corridor Geodesic is a steampunk style puzzle game that offers a unique experience catering to newcomers and puzzle veterans alike.",
+    "Descend through the floors of an underground research facility, built on the bones of an abandoned copper mine, as you try to reach and destroy the central core powering the complex."
+  ]
+}

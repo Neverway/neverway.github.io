@@ -1,0 +1,150 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 64vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.game-card {
+  flex-shrink: 0;
+  width: 500px;
+  transition: all 0.5s ease;
+  opacity: 0.4;
+  transform: scale(0.5);
+  cursor: pointer;
+}
+
+.game-card.active {
+  opacity: 1;
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+.banner-card {
+  background-color: #111111;
+  position: relative;
+  transition: 0.3s;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.banner-card:hover {
+  background-color: #222222;
+}
+
+.banner-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.overlay-logo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+}
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(130, 74, 29, 0.8);
+  border: none;
+  color: white;
+  font-size: 48px;
+  width: 46px;
+  height: 65px;
+  cursor: pointer;
+  z-index: 100;
+  border-radius: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.nav-arrow:hover {
+  background: rgba(130, 74, 29, 1);
+}
+
+.nav-arrow.left {
+  left: 20px;
+}
+
+.nav-arrow.right {
+  right: 20px;
+}
+
+.game-info {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 101;
+  background: rgba(15, 15, 15, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.game-info.visible {
+  opacity: 1;
+}
+
+.game-info h2 {
+  margin: 0 0 10px 0;
+  font-size: 26px;
+}
+
+.game-info p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.download-demo {
+  background-color: #824a1d;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12;
+  width: 175px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.docs {
+  background-color: #824a1d;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+}
+
+a:hover:not(.active) {
+  opacity: 1;
+}

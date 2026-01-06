@@ -1,0 +1,32 @@
+/*------------------*/
+/*====== NEWS ======*/
+/*------------------*/
+<details>
+.news-post {
+  color: grey;
+  margin-bottom: 2em;
+}
+.news-post .title {
+  color: #888;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+.news-post .date {
+  color: #888;
+  font-size: 0.9em;
+}
+.news-post .content {
+  color: #555;
+  font-style: italic;
+  font-size: 1.1em;
+  margin: 1em 0;
+}
+.news-post .author {
+  color: #555;
+  font-style: italic;
+  font-size: 1.1em;
+}
+.news-post .author-name {
+  color: #1997EA;
+  font-style: italic;
+}

@@ -4,17 +4,19 @@
 
 <!-- Style -->
   <!-- Style sheet -->
+  <link rel="stylesheet" href="_main/style.css">
+  <link rel="stylesheet" href="games/style.css">
+  <!-- Page -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/x-icon" href="/main/images/logo_icon.png">
+  <link rel="icon" type="image/x-icon" href="/_main/images/logo_icon.png">
   <title>Neverway</title>
   <!-- Particle background -->
   <div id="particles-js"></div>
-  <script type="text/javascript" src="/main/plugins/particles.js"></script>
-  <script type="text/javascript" src="/main/plugins/app.js"></script>
+  <script type="text/javascript" src="/_main/plugins/particles.js"></script>
+  <script type="text/javascript" src="/_main/plugins/app.js"></script>
   <!-- Topbar -->
   <topbar style="font-family: 'FadeoutLemonMilk'">
-    <li><a href="/index.html" ><img src="/main/images/logo_icon_bg.png" style="width:32px"></a></li>
+    <li><a href="/index.html" ><img src="/_main/images/logo_icon_bg.png" style="width:32px"></a></li>
     <li><a class="active" style="padding:12px;" href="/games.html">Games</a></li>
     <li><a style="padding:12px;" href="/animations&comics.html">Animations & Comics</a></li>
     <li><a style="padding:12px;" href="/software.html">Software</a></li>
@@ -26,25 +28,20 @@
 <!-- Page -->
 <html>
 <body>
-  <div class="outer-container">
-    <div class="project-container">
-      <center><font size="12" color=#0f0f0f><br></font></center>
-      <a href="/games/corgeo/main.html"><div class="banner-card">
-        <img src="games/corgeo/library_hero.jpg" class="banner-image">
-        <img src="games/corgeo/logo.png" class="overlay-logo">
-      </div></a>
-      <center><font size="12" color=#0f0f0f><br></font></center>
-      <a href="/games/da/main.html"><div class="banner-card">
-        <img src="games/da/library_hero.jpg" class="banner-image">
-        <img src="games/da/logo.png" class="overlay-logo">
-      </div></a>
-      <center><font size="12" color=#0f0f0f><br></font></center>
-      <a href="/games/four/main.html"><div class="banner-card">
-        <img src="games/four/library_hero.jpg" class="banner-image">
-        <img src="games/four/logo.png" class="overlay-logo">
-      </div></a>
-      <center><font size="12" color=#0f0f0f><br></font></center>
+  <!-- Carousel -->
+  <div class="carousel-container">
+    <button class="nav-arrow left" onclick="navigate(-1)"><</button>
+    <div class="carousel-track" id="carousel">
     </div>
+    <button class="nav-arrow right" onclick="navigate(1)">></button>
   </div>
+
+  <!-- Game Info -->
+  <div class="game-info" id="game-info">
+    <h2 id="game-title"></h2>
+    <p id="game-tags"></p>
+    <p id="game-status"></p>
+  </div>
+  <script src="/_main/plugins/game-carousel.js"></script>
 </body>
 </html>

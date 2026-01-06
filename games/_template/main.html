@@ -1,0 +1,72 @@
+<!-- Home page -->
+<!DOCTYPE html>
+
+
+<!-- Style -->
+  <!-- Style sheet -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="icon" type="image/x-icon" href="/_main/images/logo_icon.png">
+  <title>Neverway</title>
+  <!-- Particle background -->
+  <div id="particles-js"></div>
+  <script type="text/javascript" src="/_main/plugins/particles.js"></script>
+  <script type="text/javascript" src="/_main/plugins/app.js"></script>
+  <!-- Topbar -->
+  <topbar style="font-family: 'FadeoutLemonMilk'">
+    <li><a href="/index.html" ><img src="/_main/images/logo_icon_bg.png" style="width:32px"></a></li>
+    <li><a class="active" style="padding:12px;" href="/games.html">Games</a></li>
+    <li><a style="padding:12px;" href="/animations&comics.html">Animations & Comics</a></li>
+    <li><a style="padding:12px;" href="/software.html">Software</a></li>
+    <li><a style="padding:12px;" href="/about.html">About</a></li>
+  </topbar>
+  <center><font size="12" color=#0f0f0f><br></font></center>
+
+
+<!-- Page -->
+<html>
+<body>
+  <div class="outer-container">
+    <div class="content-container">
+
+      <!-- Banner -->
+      <center><font size="12" color=#0f0f0f><br></font></center>
+      <div class="image-container">
+        <img id="banner-image" class="banner-image" style="height:100%;">
+        <img id="logo-image" class="overlay-logo-center" style="height:175%;">
+      </div>
+      <center><font size="12" color=#0f0f0f><br></font></center>
+
+      <!-- Featured -->
+      <center><font size="4" color=#0f0f0f><br></font></center>
+      <div id="slideshow-container"></div>
+      <div class="slideshow-thumbnails" id="slideshow-thumbnails"></div>
+      <a href="javascript:void(0)" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a href="javascript:void(0)" class="next" onclick="plusSlides(1)">&#10095;</a>
+      <center><font size="12" color=#0f0f0f><br></font></center>
+
+      <!-- Description -->
+      <p class="news">
+        <font size="4" color="grey" id="tag-list"></font>
+      </p>
+
+      <p class="news">
+        <font size="4" color="grey" id="project-status"></font>
+      </p>
+
+      <div id="download-buttons"></div>
+
+
+      <b><font size="5" color="grey" style="text-decoration: underline;">Description</font></b>
+      <p class="news"><font size="4" color="grey"><i>Corridor Geodesic is a steampunk style puzzle game that offers a unique experience catering to newcomers and puzzle veterans alike. This game is designed to give players a new way to approach how they interact with, and manipulate, the environment around them.</i></font></p>
+<p class="news"><font size="4" color="grey"><i>
+Descend through the floors of an underground research facility, built on the bones of an abandoned copper mine, as you try to reach and destroy the central core powering the complex.</i></font></p>
+      <p class="news"><font size="4" color="grey"><i>
+        </i></font></p>
+    </div>
+  </div>
+</body>
+</html>
+
+
+<script src="/_main/plugins/slideshow.js" data-json="/games/corgeo/slideshow.json"></script>

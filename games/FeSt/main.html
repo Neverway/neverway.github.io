@@ -4,8 +4,10 @@
 
 <!-- Style -->
   <!-- Style sheet -->
+  <link rel="stylesheet" href="/main/style.css">
+  <link rel="stylesheet" href="/games/style.css">
+  <!-- Page -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/style.css">
   <link rel="icon" type="image/x-icon" href="/main/images/logo_icon.png">
   <title>Neverway</title>
   <!-- Particle background -->
@@ -28,83 +30,67 @@
 <body>
   <div class="outer-container">
     <div class="content-container">
+      <!-- Banner -->
       <center><font size="12" color=#0f0f0f><br></font></center>
-      <div class="image-container">
-        <img src="library_hero.jpg" class="banner-image" style="height:100%;">
-        <img src="logo.png" class="overlay-logo-center" style="height:175%;">
+      <div class="image-container-banner">
+        <img src="banner-art.png" class="banner-art">
+        <img src="banner-logo.png" class="banner-logo">
       </div>
-      <center><font size="12" color=#0f0f0f><br></font></center>
 
       <!-- Featured -->
-      <center><font size="4" color=#0f0f0f><br></font></center>
+      <div class="project-preview-container">
+        <div class="project-slideshow-container">
+          <div id="slideshow-container"></div>
+          <div class="slideshow-thumbnails" id="slideshow-thumbnails"></div>
+          <a class="prev" href="javascript:void(0)" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" href="javascript:void(0)" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="project-about-container">
 
-      <div id="slideshow-container"></div>
-      <div class="slideshow-thumbnails" id="slideshow-thumbnails"></div>
-      <a href="javascript:void(0)" class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a href="javascript:void(0)" class="next" onclick="plusSlides(1)">&#10095;</a>
-      <center><font size="12" color=#0f0f0f><br></font></center>
+          <div class="image-container-capsule">
+            <img src="cover-art.png" class="capsule-art">
+            <img src="cover-logo.png" class="capsule-logo">
+          </div>
+          <p><font size="2" color="grey">
+            <p>Legend tells of a blade that can defeat the beast, however... it's just a bit bigger than you were expecting</p>
+            <h4>Created By</h4>
+            <p>Lizband, Connorses, Errynei, & Alex The Foxcoon</p>
+            <h4>Tags</h4>
+            <p>Top-down 2D, Rougelike, Rpg</p>
+          </font></p>
+        </div>
+      </div>
 
-      <p class="news">
-        <font size="4" color="white"></font>
-        <font size="4" color="grey">Tags: Puzzle, Action, First Person Shooter</font>
-      </p>
-      <p class="news">
-        <font size="4" color="white"></font>
-        <font size="4" color="grey">Alpha Testing</font>
-      </p><!--
-        <a href="https://store.steampowered.com/" class="download-demo" style="background-color: #00276d;vertical-align:middle;position:relative;">
-          <img src="/main/images/download-steam.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Steam
-        </a>
-        <font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="https://github.com/Neverway/RVFR-Unity-DivineAnnihilation/releases" class="download-demo" style="background-color: #66276d;vertical-align:middle;position:relative;">
-          <img src="/main/images/download-pc.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          PC
-        </a>
-        <font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="https://github.com/Neverway/RVFR-Unity-DivineAnnihilation/releases" class="download-demo" style="background-color: #006d30;vertical-align:middle;position:relative;">
-          <img src="/main/images/download-mobile.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Android
-        </a>
-        <font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="./demo/demo.html" class="download-demo" style="background-color: #6d0009;vertical-align:middle;position:relative;">
-          <img src="/main/images/download.png"style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Demo
-        </a>-->
-        <font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="https://github.com/Neverway/RVFR-CorridorGeodesic-Unity/releases/download/Testing/CorGeoDemo_Win64.zip" class="download-demo" style="background-color: #0078d7;vertical-align:middle;position:relative;">
-          <img src="/main/images/download-pc-win.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Windows DEMO
-        </a>
-        <font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="https://github.com/Neverway/RVFR-CorridorGeodesic-Unity/releases/download/Testing/CorGeoDemo_Deb.tar.gz" class="download-demo" style="background-color: #b80f4a;vertical-align:middle;position:relative;">
-          <img src="/main/images/download-pc-deb.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Linux DEMO
-        </a>
-        <!--<font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="./demo/demo.html" class="download-demo" style="background-color: #6d0009;vertical-align:middle;position:relative;">
-          <img src="/main/images/download-demo.png"style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Web Demo
-        </a>-->
-        <font size="0" color=#0f0f0f>   &nbsp;   </font>
-        <a href="https://github.com/Neverway/RVFR-CorridorGeodesic-Unity" class="download-demo" style="background-color: #6d2b00;vertical-align:middle;position:relative;">
-          <img src="/main/images/download.png" style="position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.5;">
-          Source Code
-        </a>
-        <font size="0" color=#0f0f0f>   &nbsp;   </font>
-      </p>
-
-
-      <b><font size="5" color="grey" style="text-decoration: underline;">Description</font></b>
-      <p class="news"><font size="4" color="grey"><i>Corridor Geodesic is a steampunk style puzzle game that offers a unique experience catering to newcomers and puzzle veterans alike. This game is designed to give players a new way to approach how they interact with, and manipulate, the environment around them.</i></font></p>
-<p class="news"><font size="4" color="grey"><i>
-Descend through the floors of an underground research facility, built on the bones of an abandoned copper mine, as you try to reach and destroy the central core powering the complex.</i></font></p>
-      <p class="news"><font size="4" color="grey"><i>
-        </i></font></p>
+      <!-- Description -->
+      <div class="description-container">
+        <p><font size="4" color="grey">
+          <h4>About Autumn Howl</h4>
+          <p>In a forest that's stuck in an eternal Autumn, an Evil Beast lurks just beyond the barrier. Legend tells of a mythical blade that can defeat it, however... it's just a bit bigger than you were expecting.<br><br>Play as Autumn, a silent cat with little arms but a lot of soul, as you gather items and travel into an ever-changing forest. Try to avoid going insane from the darkness and survive just long enough to defeat The Beast!</p>
+          <h4>General Controls</h4>
+          <pre>
+          The controls are intended to reflect that of NES/SNES era emulators.
+          [Z] Interact / A Button
+          [X] Action / B Button
+          [C] Menu / Select
+          [Arrow Keys] Movement
+          PRESS C DURING A BATTLE TO SKIP YOUR STEP! (SRY!)
+          </pre>
+          <h4>Overworld Info</h4>
+          <pre>
+          [Z] Interact
+          [X] Sprint / Skip Text / Back
+          [C] Open/Close Inventory
+          [Arrow Keys] Move / Navigate Menus
+          </pre>
+          <p>Go to the inn and talk to the Innkeeper to save the game.&nbsp;Go to the forest to get loot. Once your lantern runs out, you'll want to make your way back to the town and sleep to progress to the next cycle. (Don't forget to visit the shops though!)</p>
+          <h4>Created By</h4>
+          <p>Lizband, Connorses, Errynei, & Alex The Foxcoon</p>
+        </font></p>
+      </div>
     </div>
   </div>
 </body>
 </html>
 
 
-<script src="/main/plugins/slideshow.js" data-json="/games/corgeo/slideshow.json"></script>
+<script src="/main/plugins/slideshow.js" data-json="slideshow.json"></script>

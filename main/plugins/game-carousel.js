@@ -118,8 +118,14 @@ function navigate(direction) {
 }
 
 function selectGame(index) {
-  currentIndex = index;
-  updateCarousel();
+  const game = games[currentIndex];
+  if (currentIndex != index){
+      currentIndex = index;
+      updateCarousel();
+  }
+  else if (!game['disabled']){
+    window.location.href = `/games/${game['project-id']}/main.html`;
+  }
 }
 
 document.addEventListener('DOMContentLoaded', () => {

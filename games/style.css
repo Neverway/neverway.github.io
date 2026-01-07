@@ -47,14 +47,16 @@
   display: block;
   width: 100%;
   height: auto;
+  top: 0;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .overlay-logo {
   position: absolute;
-  top: 0;
   width: 100%;
   height: 100%;
+  top: 0;
   left: 0;
   pointer-events: none;
 }
@@ -119,18 +121,7 @@
   font-size: 12px;
 }
 
-.download-demo {
-  background-color: #824a1d;
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12;
-  width: 175px;
-  height: 50px;
-  line-height: 50px;
-}
+
 
 .docs {
   background-color: #824a1d;
@@ -147,4 +138,99 @@
 
 a:hover:not(.active) {
   opacity: 1;
+}
+
+
+/* Banner */
+.image-container-banner {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.banner-art {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.banner-logo {
+  position: absolute;
+  pointer-events: none;
+  height: 100%;
+  width: 75%;
+  left: 13%;
+  top: 0;
+  object-fit: contain;
+}
+
+
+/* Project Preview */
+.project-preview-container {
+  background-color: rgba(12,12, 12, 0.5);
+  position: relative;
+  top: 20px;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.project-slideshow-container {
+  background-color: rgba(25, 1, 1, 0);
+  position: relative;
+  width: 75%;
+  height: 100%;
+  top: 0;
+}
+
+.project-about-container {
+  background-color: rgba(25, 1, 1, 0);
+  position: relative;
+  width: 30%;
+  height: 100%;
+  top: 0;
+}
+
+
+/* Capsule */
+.image-container-capsule {
+  position: relative;
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.capsule-art {
+  display: block;
+  height: 100%;
+  width: 117%;
+  object-fit: cover;
+  display: flex;
+}
+
+.capsule-logo {
+  position: absolute;
+  pointer-events: none;
+  height: 100%;
+  width: 117%;
+  top: 0;
+  object-fit: contain;
+}
+
+
+/* Description */
+.description-container {
+  background-color: rgba(12,12, 12, 0.5);
+  position: relative;
+  top: 50px;
+  width: 90%;
+  left: 5%;
+  padding: 20px;
 }

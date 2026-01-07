@@ -13,7 +13,8 @@
     },
     "players-supported": 4,
     "age-range": 16,
-    "hidden": false
+    "hidden": false,
+    "disabled": false
   },
   {
     "project-title": "Corridor Geodesic",
@@ -29,7 +30,8 @@
     },
     "players-supported": 1,
     "age-range": 16,
-    "hidden": false
+    "hidden": false,
+    "disabled": false
   },
   {
     "project-title": "Divine Annihilation",
@@ -45,7 +47,8 @@
     },
     "players-supported": 1,
     "age-range": 16,
-    "hidden": false
+    "hidden": false,
+    "disabled": true
   },
   {
     "project-title": "Vector Howl",
@@ -61,7 +64,8 @@
     },
     "players-supported": 16,
     "age-range": 16,
-    "hidden": true
+    "hidden": true,
+    "disabled": true
   },
   {
     "project-title": "Fadeout Underground: Report",
@@ -77,7 +81,8 @@
     },
     "players-supported": 16,
     "age-range": 16,
-    "hidden": false
+    "hidden": false,
+    "disabled": true
   },
   {
     "project-title": "Feral Strife",
@@ -93,6 +98,7 @@
     },
     "players-supported": 16,
     "age-range": 16,
-    "hidden": true
+    "hidden": true,
+    "disabled": true
   }
 ]

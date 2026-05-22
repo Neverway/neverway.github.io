@@ -1,0 +1,147 @@
+[
+  {
+    "category": "Hardware",
+    "title": "KBM5100",
+    "description": "A battery powered desktop computer terminal prototype designed after the IBM-5100. It boasts a B450-m motherboard, a Ryzen 1700x processor, 32gb of DDR4 ram, and an AMD 6600 GPU. It has around a ~5 hour battery life, and an integrated power inverter for charging or wall power. ",
+    "mainImage": "images/KBM5100/kbm8.jpg",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Hardware",
+    "title": "H.I.D.A.",
+    "description": "HIDA (Human Interfaced Digital Analyzer) is a prototype wearable holographic visor with computer vision tools and an onboard communicator powered by a RPI-4a.",
+    "mainImage": "images/HIDA/HIDA14.jpg",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Hardware",
+    "title": "VRLynx Trackers",
+    "description": "A custom designed set of VR (Virtual Reality) FBTs (full body trackers) made to be modular, upgradable, and easily repairable.",
+    "mainImage": "images/Vrlynx/Vrlynx1.jpg",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Hardware",
+    "title": "Mp3dal",
+    "description": "A hands-free, microcontroller powered, multi-media pedal for recording, replaying, and scrubbing through music. Paired with a terminal user interface driven program.",
+    "mainImage": "images/Mp3dal/mp3dal1.jpg",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Games",
+    "title": "Autumn Howl",
+    "description": "A short one-shot style RPG. A Beast lurks just beyond the barrier. Legend tells of a blade that can defeat it, but the hero tied in its fate isn't strong enough to wield it.",
+    "mainImage": "images/auho1.png",
+    "images": [],
+    "links": [
+      {
+        "label": "See More",
+        "url": "https://neverway.github.io/games/AuHo/main.html"
+      }
+    ]
+  },
+  {
+    "category": "Games",
+    "title": "Corridor Geodesic",
+    "description": "A Portal inspired puzzle game about folding space.",
+    "mainImage": "images/corgeo1.png",
+    "images": [],
+    "links": [
+      {
+        "label": "See More",
+        "url": "https://neverway.github.io/games/CorGeo/main.html"
+      }]
+  },
+  {
+    "category": "Games",
+    "title": "Tarot Beasts",
+    "description": "",
+    "mainImage": "images/tabe1.png",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Games",
+    "title": "Foxkross Fields",
+    "description": "",
+    "mainImage": "images/fofi1.png",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Games",
+    "title": "Feral Kart",
+    "description": "",
+    "mainImage": "images/feka1.png",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Games",
+    "title": "Divine Annihilation",
+    "description": "",
+    "mainImage": "images/",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Games",
+    "title": "Fadeout Underground Report",
+    "description": "",
+    "mainImage": "images/",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Software",
+    "title": "Neverway Riven Framework",
+    "description": "",
+    "mainImage": "images/",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Software",
+    "title": "RALI",
+    "description": "",
+    "mainImage": "images/",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Software",
+    "title": "Nynet Multiplayer Networking",
+    "description": "",
+    "mainImage": "images/",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Software",
+    "title": "Git Large File Fixer",
+    "description": "",
+    "mainImage": "images/",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Software",
+    "title": "Media Mink",
+    "description": "",
+    "mainImage": "images/",
+    "images": [],
+    "links": []
+  },
+  {
+    "category": "Software",
+    "title": "Orbitall",
+    "description": "",
+    "mainImage": "images/",
+    "images": [],
+    "links": []
+  }
+]

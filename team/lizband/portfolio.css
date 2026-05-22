@@ -1,0 +1,150 @@
+#portfolio-jump-bar {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.portfolio-jump-btn {
+  font-family: 'FadeoutLemonMilk', sans-serif;
+  color: white;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.25);
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.portfolio-jump-btn:hover {
+  background: rgba(255,255,255,0.18);
+  border-color: rgba(255,255,255,0.6);
+}
+
+.portfolio-section {
+  margin-bottom: 48px;
+}
+
+.portfolio-category-title {
+  font-family: 'FadeoutLemonMilk', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.portfolio-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin: 20px 0;
+  background: rgba(255,255,255,0.04);
+  border-radius: 6px;
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  .portfolio-card { flex-direction: column; }
+}
+
+.portfolio-gallery {
+  flex-shrink: 0;
+  width: 260px;
+}
+
+.portfolio-main-image-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-main-image {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  background: rgba(0,0,0,0.3);
+}
+
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  width: 28px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.15s;
+}
+.gallery-arrow:hover { background: rgba(0,0,0,0.8); }
+.gallery-prev { left: 4px; }
+.gallery-next { right: 4px; }
+
+.portfolio-thumbs {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+.portfolio-thumb {
+  width: 56px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.55;
+  border: 2px solid transparent;
+  transition: opacity 0.15s, border-color 0.15s;
+}
+
+.portfolio-thumb.active,
+.portfolio-thumb:hover {
+  opacity: 1;
+  border-color: white;
+}
+
+.portfolio-info {
+  flex: 1;
+}
+
+.portfolio-title {
+  font-family: 'FadeoutLemonMilk', sans-serif;
+  color: white;
+  font-size: 1.15rem;
+  margin: 0 0 8px 0;
+}
+
+.portfolio-description {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin: 0 0 12px 0;
+}
+
+.portfolio-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.portfolio-link {
+  color: white;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 4px 14px;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.portfolio-link:hover {
+  background: rgba(255,255,255,0.22);
+}

@@ -26,8 +26,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b740ba5-8f99-4944-8b0e-dd034cd953da" name="Default Changelist" comment="Added profile picture to about.html">
-      <change afterPath="$PROJECT_DIR$/team/lizband/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/plugins/portfolio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/HIDA/HIDA9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/IKCController/IKCController1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/IKCController/IKCController2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/KBM5100/kbm9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/LFFS/LFFS1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/Media Mink/MediaMink1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/Media Mink/MediaMink2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/Mp3dal/mp3dal1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/Orbitall/Orbitall1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/Orbitall/Orbitall2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/TarotBeasts/TarotBeasts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/TarotBeasts/TarotBeasts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/Vrlynx/Vrlynx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/Vrlynx/Vrlynx2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/Vrlynx/Vrlynx3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/images/auho1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/portfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team/lizband/portfolio.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team/lizband/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/team/lizband/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
